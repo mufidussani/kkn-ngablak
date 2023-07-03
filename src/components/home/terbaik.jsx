@@ -58,7 +58,7 @@ const Terbaik = () => {
   };
 
   return (
-    <div className="items-center bg-[#1E1E1E] pt-2 xl:pt-24 h-screen px-8 xl:px-24">
+    <div className="items-center bg-[#1E1E1E] pb-16 pt-2 xl:pt-24 px-8 xl:px-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"

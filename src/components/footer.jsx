@@ -18,7 +18,8 @@ import {
   faYoutube,
   faMailchimp,
 } from "@fortawesome/free-brands-svg-icons";
-import Logo from "../assets/logo-saujana-big.png";
+import Logo from "../assets/logo-saujana-small.png";
+import logo from "../assets/logo-saujana-big.png";
 // import festival_footer from "../assets/footer/festival-gm-footer.svg";
 // import ornament_footer from "../assets/footer/ornament-footer.svg";
 // import ikuti_footer from "../assets/footer/ikuti-kami-footer.svg";
@@ -28,22 +29,27 @@ const footer = () => {
   return (
     <footer className=" bg-black z-100 xl:px-10">
       <div className="flex flex-row">
-        <div className="container mx-auto h-[120vh] sm:h-[115vh] xl:h-auto px-2 text-left sm:w-auto xl:w-full">
+        <div className="container mx-auto px-2 text-left sm:w-auto xl:w-full h-[75vh] sm:h-[78vh] xl:h-full">
           <div className="mx-4 flex justify-evenly gap-y-2 xl:flex-row xl:items-start flex-col gap-8 mobile:text-2xl">
             <div className="flex flex-col items-center self-center xl:items-start xl:self-auto">
-              <div className="flex items-center sm:px-[15rem] xl:px-0 xl:gap-10 xl:flex-row sm:py-12 mobile:p-14">
+              <div className="flex items-center sm:px-[15rem] xl:px-0 xl:gap-10 xl:flex-row mt-4 mb-4 xl:py-12">
                 <img
                   src={Logo}
                   alt=""
-                  className="transition-all xl:inline-flex xl:h-28 xl:scale-[1.4]"
+                  className="transition-all xl:hidden xl:h-28 xl:scale-[1.4]"
+                />
+                <img
+                  src={logo}
+                  alt=""
+                  className=" hidden transition-all xl:inline-flex xl:h-28 xl:scale-[1.4]"
                 />
                 <span className="hidden xl:block">
                   <p className="">
-                    <span className="font-bold content-left text-xl text-white">
+                    <span className="font-bold content-left text-lg xl:text-xl text-white">
                       DESA GIRIREJO
                     </span>
                     <br />
-                    <span className="text-center xl:content-left text-lg text-white">
+                    <span className="text-center xl:content-left text-md xl:text-lg text-white">
                       Kecamatan Ngablak, Kabupaten Magelang, Jawa Tengah, 56194
                     </span>
                   </p>
@@ -53,16 +59,16 @@ const footer = () => {
                 </p> */}
               </div>
               <span className="xl:hidden">
-                <p className="font-bold text-center text-xl text-white lg:mt-6">
+                <p className="font-bold text-center text-lg text-white lg:mt-6">
                   DESA GIRIREJO
                 </p>
-                <p className="text-center text-lg text-white lg:mt-6">
+                <p className="text-center text-base text-white lg:mt-6 mb-2">
                   Kecamatan Ngablak, Kabupaten Magelang, Jawa Tengah, 56194
                 </p>
               </span>
             </div>
             {/* quick link */}
-            <div className="flex flex-col text-lg text-white xl:gap-2 xl:text-xl gap-2 my-6">
+            <div className="hidden xl:flex flex-col text-lg text-white xl:gap-2 xl:text-xl gap-2 my-6">
               <div className="flex flex-col text-lg gap-2">
                 <Link
                   onClick={() => {
@@ -103,7 +109,7 @@ const footer = () => {
               </div>
             </div>
             {/* kontak person whatsapp */}
-            <div className="flex flex-col text-lg text-white gap-2 xl:py-6">
+            <div className="flex flex-col text-base xl:text-lg text-white gap-2 xl:py-6">
               <div className="flex flex-col gap-2">
                 <p className="font-bold">Hubungi Kami</p>
                 <a
@@ -147,8 +153,8 @@ const footer = () => {
               </p> */}
             </div>
             {/* <div> */}
-            <p className="content-left text-sm text-white mt-6">
-              &copy; Tim KKN Saujana Ngablak 2023
+            <p className="content-left text-xs text-white mt-4 xl:mt-6">
+              Developed by Tim KKN Saujana Ngablak 2023
             </p>
             {/* </div> */}
           </div>
