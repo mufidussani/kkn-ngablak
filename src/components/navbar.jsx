@@ -58,7 +58,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           exact
-          to="/tentang"
+          to="/agrowisata"
           className={({ isActive }) => (isActive ? "font-bold" : "font-normal")}
           style={{
             marginLeft: "1.5rem",
@@ -198,7 +198,7 @@ const Navbar = () => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                 setNavbar(false);
               }}
-              to="/tentang"
+              to="/agrowisata"
               className="block px-2 py-4 text-2xl font-bold transition duration-300 hover:bg-green-500"
             >
               Agrowisata dan Pariwisata

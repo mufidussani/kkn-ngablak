@@ -3,6 +3,7 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Home from "./pages/Home";
+import Agrowisata from "./pages/Agrowisata";
 import Footer from "./components/footer";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/agrowisata" element={<Agrowisata />} />
       </Routes>
       <Footer />
     </div>
