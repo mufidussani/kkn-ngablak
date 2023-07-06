@@ -59,7 +59,7 @@ const Terbaik = () => {
   };
 
   return (
-    <div className="items-center bg-[#1E1E1E] pb-16 pt-2 xl:pt-10 px-8 xl:px-24">
+    <div className="items-center bg-[#E8F2D8] pb-16 pt-2 xl:pt-10 px-8 xl:px-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"
@@ -68,12 +68,12 @@ const Terbaik = () => {
         >
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="font-Satisfy text-2xl xl:text-4xl font-bold mb-1 text-center">
+              <div className="text-[#545B77] font-Satisfy text-2xl xl:text-4xl font-bold mb-1 text-center">
                 Terbaik dari Girirejo
               </div>
             </div>
           </div>
-          <div className="sm:text-base xl:text-xl text-center mb-10">
+          <div className="text-[#545B77] sm:text-base xl:text-xl text-center mb-10">
             Telusuri lebih lanjut tentang apa yang kami tawarkan.
           </div>
           <Slider {...settings} className="">

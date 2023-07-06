@@ -27,7 +27,7 @@ import logo from "../assets/logo-saujana-big.png";
 
 const footer = () => {
   return (
-    <footer className=" bg-black z-100 xl:px-10">
+    <footer className=" bg-[#89675C] z-100 xl:px-10">
       <div className="flex flex-row">
         <div className="container mx-auto px-2 text-left sm:w-auto xl:w-full h-[75vh] sm:h-[78vh] xl:h-full">
           <div className="mx-4 flex justify-evenly gap-y-2 xl:flex-row xl:items-start flex-col gap-8 mobile:text-2xl">

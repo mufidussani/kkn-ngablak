@@ -10,7 +10,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <div className="fixed z-[100] flex h-[70px] w-full justify-between bg-black text-white">
+    <div className="fixed z-[100] flex h-[70px] w-full justify-between bg-[#89675C] text-[#E8F2D8]">
       <div className="xl:ml-14 ml-10 flex flex-shrink-0 items-center py-4 px-[28px] mobile:mx-0 mobile:px-10">
         <div className="h-full w-full pb-[3.05rem]">
           <Link to="">
@@ -51,7 +51,7 @@ const Navbar = () => {
             onClick={() => {
               window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
             }}
-            className="transition-all cursor-pointer py-5 text-center hover:animate-fade hover:bg-gray-300 hover:rounded-xl hover:bg-cover hover:bg-center hover:py-[10px]"
+            className="transition-all cursor-pointer py-5 text-center hover:animate-fade hover:text-white hover:px-2 hover:bg-[#374249] hover:rounded-xl hover:bg-cover hover:bg-center hover:py-[10px]"
           >
             Beranda
           </li>
@@ -70,7 +70,7 @@ const Navbar = () => {
             onClick={() => {
               window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
             }}
-            className="transition-all transform cursor-pointer py-5 text-center hover:animate-fade hover:bg-gray-300 hover:rounded-xl hover:bg-cover hover:bg-center hover:py-[10px]"
+            className="transition-all transform cursor-pointer py-5 text-center hover:text-white hover:px-2 hover:animate-fade hover:bg-[#374249] hover:rounded-xl hover:bg-cover hover:bg-center hover:py-[10px]"
           >
             Agrowisata dan Pariwisata
           </li>
@@ -89,7 +89,7 @@ const Navbar = () => {
             onClick={() => {
               window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
             }}
-            className="transition-all transform cursor-pointer py-5 text-center hover:animate-fade hover:bg-gray-300 hover:rounded-xl hover:bg-cover hover:bg-center hover:py-[10px]"
+            className="transition-all transform cursor-pointer py-5 text-center hover:px-2 hover:text-white hover:animate-fade hover:bg-[#374249] hover:rounded-xl hover:bg-cover hover:bg-center hover:py-[10px]"
           >
             UMKM
           </li>
@@ -108,7 +108,7 @@ const Navbar = () => {
             onClick={() => {
               window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
             }}
-            className="transition-all cursor-pointer py-5 text-center hover:animate-fade hover:bg-gray-300 hover:rounded-xl hover:bg-cover hover:bg-center hover:py-[10px]"
+            className="transition-all cursor-pointer py-5 text-center hover:px-2 hover:text-white hover:animate-fade hover:bg-[#374249] hover:rounded-xl hover:bg-cover hover:bg-center hover:py-[10px]"
           >
             Budaya
           </li>
