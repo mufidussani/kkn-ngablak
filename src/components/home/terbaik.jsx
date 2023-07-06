@@ -26,6 +26,7 @@ const Terbaik = () => {
     infinite: true,
     autoplay: true,
     speed: 500,
+    autoplaySpeed: 1500,
     slidesToShow: 4,
     slidesToScroll: 1,
     initialSlide: 0,
@@ -58,16 +59,16 @@ const Terbaik = () => {
   };
 
   return (
-    <div className="items-center bg-[#1E1E1E] pb-16 pt-2 xl:pt-24 px-8 xl:px-24">
+    <div className="items-center bg-[#1E1E1E] pb-16 pt-2 xl:pt-10 px-8 xl:px-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"
-          data-aos="fade-right"
+          data-aos="fade-down"
           data-aos-duration="1000"
         >
-          <div className="font-black sm:text-3xl md:text-4xl lg:text-5xl xl:mb-5 xl:text-5xl pointer-events-none">
+          <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="font-Satisfy text-2xl font-bold mb-1 text-center">
+              <div className="font-Satisfy text-2xl xl:text-4xl font-bold mb-1 text-center">
                 Terbaik dari Girirejo
               </div>
             </div>

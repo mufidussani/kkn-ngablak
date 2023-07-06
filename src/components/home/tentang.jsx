@@ -15,12 +15,8 @@ const Tentang = () => {
   const [width] = useState(window.innerWidth);
   const isDesktop = width > 640;
 
-  // const translateLogo = {
-  // 	transform: isDesktop ? "translate(30%, 0%)" : "translate(0%, 0%)",
-  // };
-
   return (
-    <div className="items-center bg-[#1E1E1E] pt-24 md:pt-24 xl:pt-32 pb-8 block px-8 xl:px-24">
+    <div className="items-center bg-[#1E1E1E] pt-8 xl:pt-16 pb-8 block px-8 xl:px-24">
       <div className="xl:grid xl:grid-cols-2 flex flex-col">
         <div
           className="relative items-end text-left text-white mobile:text-sm xl:w-[90%]"
@@ -29,7 +25,7 @@ const Tentang = () => {
         >
           <div className="sm:text-3xl md:text-4xl lg:text-5xl xl:mb-5 xl:text-5xl pointer-events-none">
             <div className="mt-1 flex flex-row sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <p className="font-Satisfy mobile:text-2xl mobile:font-bold mb-5">
+              <p className="font-Satisfy mobile:text-2xl mobile:font-bold mb-3">
                 Tentang Girirejo
               </p>
             </div>
@@ -63,7 +59,11 @@ const Tentang = () => {
           </Link>
         </div>
 
-        <div className="mt-12 xl:mt-0 flex justify-center items-center container">
+        <div
+          className="mt-12 xl:mt-0 flex justify-center items-center container"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <iframe
             className="container h-[400px]"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31653.272575497842!2d110.33836083171637!3d-7.392045859162838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a7dd320e71acb%3A0x5027a76e3558f60!2sGirirejo%2C%20Kec.%20Ngablak%2C%20Kabupaten%20Magelang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1688285845434!5m2!1sid!2sid"
