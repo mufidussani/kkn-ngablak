@@ -27,12 +27,12 @@ import logo from "../assets/logo-saujana-big.png";
 
 const footer = () => {
   return (
-    <footer className=" bg-[#89675C] z-100 xl:px-10">
+    <footer className=" bg-[#374259] z-100 xl:px-10 py-8">
       <div className="flex flex-row">
-        <div className="container mx-auto px-2 text-left sm:w-auto xl:w-full h-[75vh] sm:h-[78vh] xl:h-full">
+        <div className="container mx-auto px-2 text-left sm:w-auto xl:w-full h-full">
           <div className="mx-4 flex justify-evenly gap-y-2 xl:flex-row xl:items-start flex-col gap-8 mobile:text-2xl">
             <div className="flex flex-col items-center self-center xl:items-start xl:self-auto">
-              <div className="flex items-center sm:px-[15rem] xl:px-0 xl:gap-10 xl:flex-row mt-4 mb-4 xl:py-12">
+              <div className="flex items-center sm:px-[15rem] xl:px-0 xl:gap-10 xl:flex-row mb-4 xl:py-12">
                 <img
                   src={Logo}
                   alt=""
@@ -68,7 +68,7 @@ const footer = () => {
               </span>
             </div>
             {/* quick link */}
-            <div className="hidden xl:flex flex-col text-lg text-white xl:gap-2 xl:text-xl gap-2 my-6">
+            <div className="flex flex-col text-lg text-white xl:gap-2 xl:text-xl gap-2 my-6">
               <div className="flex flex-col text-lg gap-2">
                 <Link
                   onClick={() => {

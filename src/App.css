@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Metropolis";
+  src: local("Metropolis"),
+    url(./fonts/Metropolis/Metropolis-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis-Bold";
+  /* font-weight: 900; */
+  src: local("Metropolis"),
+    url(./fonts/Metropolis/Metropolis-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Metropolis-Light";
+  src: local("Metropolis"),
+    url(./fonts/Metropolis/Metropolis-Light.otf) format("opentype");
+}

@@ -16,7 +16,7 @@ const Tentang = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-[#E8F2D8] pt-8 xl:pt-16 pb-8 block px-8 xl:px-24">
+    <div className="items-center bg-[#FFFDEC] pt-8 xl:pt-16 pb-8 block px-8 xl:px-24">
       <div className="xl:grid xl:grid-cols-2 flex flex-col">
         <div
           className="relative items-end text-left text-white mobile:text-sm xl:w-[90%]"
@@ -25,7 +25,7 @@ const Tentang = () => {
         >
           <div className="sm:text-3xl md:text-4xl lg:text-5xl xl:mb-5 xl:text-5xl pointer-events-none">
             <div className="mt-1 flex flex-row sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <p className="font-Satisfy text-[#545B77] mobile:text-2xl mobile:font-bold mb-3">
+              <p className="font-Satisfy text-[#545B77] mobile:text-2xl font-bold mb-3">
                 Tentang Girirejo
               </p>
             </div>
