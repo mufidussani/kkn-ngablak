@@ -10,9 +10,11 @@ module.exports = {
       },
       backgroundImage: {
         pattern: "url('../src/assets/navbar-hover.svg')",
+        "homepage-cover": "url('../src/assets/home/header_homepage.jpg')",
       },
       fontFamily: {
         Satisfy: ["Satisfy"],
+        Montserrat: ["Montserrat"],
         Inter: ["Inter"],
       },
     },

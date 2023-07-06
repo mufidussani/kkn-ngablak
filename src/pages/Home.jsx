@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-// import Opening_video from "../components/home/opening_video";
+import Homepage from "../components/home/homepage";
 import Tentang from "../components/home/tentang";
 import Terbaik from "../components/home/terbaik";
 import { HtmlHead } from "../components/HtmlHead";
@@ -14,15 +14,9 @@ export default function Home() {
         link="/"
       />
       <main className="overflow-hidden">
+        <Homepage />
         <Tentang />
         <Terbaik />
-        {/* <Opening_video />
-        <Tentang />
-        <Rangkaian />
-
-        <LiniMasa />
-        <Sponsor />
-        <Medpart /> */}
       </main>
     </>
   );
