@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/agrowisata/via-gogik.png";
+import gambar1 from "../../assets/agrowisata/Sawit_Top.jpg";
 import gambar2 from "../../assets/agrowisata/via-pendem.png";
 import gambar3 from "../../assets/agrowisata/via-sawit.png";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import Slider from "react-slick";
 // import "./tentang.css";
 
-const Agrowisata2 = () => {
+const Agrowisata3 = () => {
   var settings = {
     dots: false,
     // arrows: false,
@@ -54,7 +54,7 @@ const Agrowisata2 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-[#545B77] py-12 xl:py-24 px-8 xl:px-24">
+    <div className="items-center bg-[#545B77] py-8 xl:py-12 px-8 xl:px-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"
@@ -66,7 +66,7 @@ const Agrowisata2 = () => {
               <div className="font-black text-[#FFFDEC] font-Satisfy text-2xl sm:text-3xl xl:text-4xl text-center mb-3">
                 Rute Pendakian Via Sawit
               </div>
-              <p className="text-justify">
+              <p className="text-justify xl:hidden">
                 Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
                 pemula karena jalur ini telah disusun sedemikian rupa untuk
                 memudahkan para pendaki untuk menikmati alam selama perjalanan
@@ -77,16 +77,27 @@ const Agrowisata2 = () => {
               </p>
             </div>
           </div>
-          <div className="container grid grid-rows-2 grid-flow-col justify-center items-center mt-3">
-            <div className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4 col-span-2 xl:my-8">
-              <img className="" src={gambar1} alt="rectangle"></img>
+          <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-4 pt-4">
+            <div className=" hidden xl:block text-xl text-justify">
+              Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
+              pemula karena jalur ini telah disusun sedemikian rupa untuk
+              memudahkan para pendaki untuk menikmati alam selama perjalanan
+              untuk mencapai puncak Gunung Andong. Anda tidak perlu khawatir
+              kelelahan karena terdapat beberapa pos yang menyediakan tempat
+              beristirahat, toilet bahkan beberapa warung untuk mengisi energi.
             </div>
-            <div className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4 col-span-2">
+            <div className="flex justify-center xl:justify-normal transform xl:pb-0 col-span-2 xl:col-span-1">
+              <img
+                className="w-auto rounded-xl"
+                src={gambar1}
+                alt="rectangle"
+              ></img>
+            </div>
+            <div className="flex justify-center transform xl:pb-0 md:col-span-1 xl:col-span-1">
               {/* <h3>2</h3> */}
               <img className="" src={gambar2} alt="rectangle"></img>
             </div>
-            <div className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4 row-span-2 col-span-2">
-              {/* <h3>2</h3> */}
+            <div className="flex justify-center transform xl:pb-0 md:col-span-1 xl:col-span-1">
               <img className="" src={gambar3} alt="rectangle"></img>
             </div>
           </div>
@@ -96,4 +107,4 @@ const Agrowisata2 = () => {
   );
 };
 
-export default Agrowisata2;
+export default Agrowisata3;

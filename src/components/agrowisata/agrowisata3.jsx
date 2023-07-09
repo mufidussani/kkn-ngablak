@@ -54,52 +54,57 @@ const Agrowisata3 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="container items-center bg-[#545B77] py-8 xl:py-12 px-8 xl:px-24">
+    <div className="items-center bg-basic py-8 xl:py-12 px-8 xl:px-24">
       <div className="">
         <div
-          className="relative items-center text-white text-sm"
+          className="relative items-center text-light-blue text-sm"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
           <div className="pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="font-black text-[#FFFDEC] font-Satisfy text-2xl sm:text-3xl xl:text-4xl text-center mb-3">
-                Rute Pendakian Via Sawit
+              <div className="font-black text-light-blue font-Satisfy text-2xl sm:text-3xl xl:text-4xl text-center mb-3 xl:hidden">
+                Liburan Bersama Keluarga di Telomoyo Nature Park
               </div>
               <p className="text-justify xl:hidden">
-                Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
-                pemula karena jalur ini telah disusun sedemikian rupa untuk
-                memudahkan para pendaki untuk menikmati alam selama perjalanan
-                untuk mencapai puncak Gunung Andong. Anda tidak perlu khawatir
-                kelelahan karena terdapat beberapa pos yang menyediakan tempat
-                beristirahat, toilet bahkan beberapa warung untuk mengisi
-                energi.
+                Bosan menginap di tempat yang itu-itu saja? Ingin mencari
+                suasana baru untuk liburan bersama keluarga?
+                <br />
+                Telomoyo Nature Park jawabannya!
               </p>
             </div>
           </div>
-          <div className="container grid grid-cols-2 xl:grid-cols-3 mt-3 gap-4 pt-4">
-            <div className="col-span-1 hidden xl:block text-xl text-justify">
-              Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
-              pemula karena jalur ini telah disusun sedemikian rupa untuk
-              memudahkan para pendaki untuk menikmati alam selama perjalanan
-              untuk mencapai puncak Gunung Andong. Anda tidak perlu khawatir
-              kelelahan karena terdapat beberapa pos yang menyediakan tempat
-              beristirahat, toilet bahkan beberapa warung untuk mengisi energi.
+          <div className="grid grid-cols-2 xl:grid-cols-3 mt-3 gap-4 pt-4">
+            <div className="font-black xl:col-span-2 text-light-blue font-Satisfy text-2xl sm:text-3xl xl:text-4xl text-center mb-3">
+              Liburan Bersama Keluarga di Telomoyo Nature Park
+              <br />
+              <div className="font-Metropolis mt-4 text-justify">
+                Bosan menginap di tempat yang itu-itu saja? Ingin mencari
+                suasana baru untuk liburan bersama keluarga?
+                <br />
+                Telomoyo Nature Park jawabannya!
+              </div>
             </div>
-            <div className="flex justify-center xl:justify-normal transform xl:pb-0 md:col-span-1 col-span-2">
-              <img
-                className="w-auto rounded-xl"
-                src={gambar1}
-                alt="rectangle"
-              ></img>
+            {/* <div className="col-span-1 xl:col-span-3 text-center hidden text-xl xl:flex items-center">
+              Bosan menginap di tempat yang itu-itu saja? Ingin mencari suasana
+              baru untuk liburan bersama keluarga?
+              <br />
+              Telomoyo Nature Park jawabannya!
+            </div> */}
+            <div className="flex justify-center items-center xl:justify-normal xl:pb-0 col-span-1 xl:col-span-1">
+              <img className="rounded-xl" src={gambar1} alt="rectangle"></img>
             </div>
-            <div className="flex justify-center transform xl:pb-0">
-              {/* <h3>2</h3> */}
-              <img className="" src={gambar2} alt="rectangle"></img>
+            <div className="font-black col-span-2 xl:col-span-3 xl:text-2xl text-center">
+              Menginap di pelukan alam tidak pernah senyaman ini,
             </div>
-            <div className="flex justify-center transform xl:pb-0 md:col-span-2 xl:col-span-1">
-              {/* <h3>2</h3> */}
-              <img className="" src={gambar3} alt="rectangle"></img>
+            <div className="col-span-2 xl:col-span-3 w-full h-full justify-center flex">
+              <iframe
+                src="https://www.youtube.com/embed/G7KNmW9a75Y"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
             </div>
           </div>
         </div>
