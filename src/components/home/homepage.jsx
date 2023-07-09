@@ -1,8 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-// import Logo from "../../assets/logo_fgm.svg";
-// import gunungan from "../../assets/home/gunungan.svg";
-// import mozaik_horizontal from "../../assets/home/mozaik_horizontal.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 // import "./tentang.css";
