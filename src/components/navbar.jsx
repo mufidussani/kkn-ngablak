@@ -77,7 +77,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           exact
-          to="/teater"
+          to="/umkm"
           className={({ isActive }) => (isActive ? "font-bold" : "font-normal")}
           style={{
             marginLeft: "1.5rem",
