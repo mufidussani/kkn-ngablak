@@ -1,13 +1,15 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/umkm/mockup_keripik.jpg";
-import gambar2 from "../../assets/umkm/mockup_POC.jpg";
+import gambar1 from "../../assets/umkm/natural.jpeg";
+import gambar2 from "../../assets/umkm/asalan.jpeg";
+import gambar3 from "../../assets/umkm/honey.jpeg";
+import gambar4 from "../../assets/umkm/telomoyo.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
 // import "./tentang.css";
 
-const Umkm1 = () => {
+const Umkm3= () => {
   var settings = {
     dots: false,
     // arrows: false,
@@ -57,15 +59,15 @@ const Umkm1 = () => {
       <div className="">
         <div
           className="relative items-center text-white text-sm"
-          data-aos="fade-down"
+          data-aos="fade-up"
           data-aos-duration="1000"
         >
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="text-[#545B77] font-Satisfy text-2xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
-                Produk Desa
+              Kopi Terbaik dari Kaki Gunung
                 <div className="text-[#545B77] sm:text-base text-center mr-10 text">
-                Produk yang sedang dikembangkan
+                Kopi Sulur siap menemani liburan Anda dengan aroma mengikat dan kenikmatan yang tak terlupakan
                 </div>
               </div>
             </div>
@@ -73,18 +75,40 @@ const Umkm1 = () => {
           {/* <div className="text-[#545B77] sm:text-base xl:text-xl text-center mb-10">
             Telusuri lebih lanjut tentang apa yang kami tawarkan.
           </div> */}
-          <div className="container flex-col xl:flex-row flex items-center">
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
+        </div >
+        <div className="relative items-center text-white text-sm"
+          data-aos-duration="1000"
+        >
+        <div className="container flex-col xl:flex-row flex items-center">
+            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4"
+                data-aos="fade-right">
               <img className="" src={gambar1} alt="rectangle"></img>
-              <div className="text-[#545B77] sm:text-base text-center mr-11 text">
-                Keripik
+              <div className="text-[#545B77] sm:text-base text-center mr-11">
+                Natural
               </div>
             </div>
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
+            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4"
+                data-aos="fade-right">
               {/* <h3>2</h3> */}
               <img className="" src={gambar2} alt="rectangle"></img>
-              <div className="text-[#545B77] sm:text-base text-center mr-11 text">
-                Pupuk Organik Cair
+              <div className="text-[#545B77] sm:text-base text-center mr-11">
+                Asalan
+              </div>
+            </div>
+            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4"
+                data-aos="fade-left">
+              {/* <h3>2</h3> */}
+              <img className="" src={gambar3} alt="rectangle"></img>
+              <div className="text-[#545B77] sm:text-base text-center mr-11">
+                Honey
+              </div>
+            </div>
+            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4"
+                data-aos="fade-left">
+              {/* <h3>2</h3> */}
+              <img className="" src={gambar4} alt="rectangle"></img>
+              <div className="text-[#545B77] sm:text-base text-center mr-11">
+                Telomoyo
               </div>
             </div>
           </div>
@@ -94,4 +118,4 @@ const Umkm1 = () => {
   );
 };
 
-export default Umkm1;
+export default Umkm3;
