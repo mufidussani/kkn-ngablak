@@ -19,7 +19,7 @@ const Tentang = () => {
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <div className="sm:text-3xl md:text-4xl lg:text-5xl xl:mb-5 xl:text-5xl pointer-events-none">
+          <div className="sm:text-3xl md:text-4xl lg:text-5xl xl:mb-2 xl:text-5xl pointer-events-none">
             <div className="mt-1 flex flex-row sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <p className="font-Satisfy text-[#545B77] mobile:text-2xl font-bold mb-3">
                 Tentang Girirejo
@@ -48,7 +48,7 @@ const Tentang = () => {
               onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
               }}
-              class="mt-4 rounded bg-[#374249] py-2 px-6 font-Montserrat text-lg md text-white transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)]  mobile:text-sm"
+              class="mt-4 rounded bg-[#374249] py-2 px-6 font-Montserrat text-lg md text-white transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)] mobile:text-sm"
             >
               Selengkapnya
             </button>

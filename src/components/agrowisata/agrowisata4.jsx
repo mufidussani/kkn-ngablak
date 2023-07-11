@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/agrowisata/Sawit_Top.jpg";
-import gambar2 from "../../assets/agrowisata/Sawit_Big.jpg";
-import gambar3 from "../../assets/agrowisata/Sawit_Sm.jpg";
+import gambar1 from "../../assets/agrowisata/gogik_a.jpg";
+import gambar2 from "../../assets/agrowisata/gogik_b.jpg";
+import gambar3 from "../../assets/agrowisata/gogik_c.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Slider from "react-slick";
 // import "./tentang.css";
 
-const Agrowisata3 = () => {
+const Agrowisata4 = () => {
   var settings = {
     dots: false,
     // arrows: false,
@@ -54,13 +54,11 @@ const Agrowisata3 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div
-      className="items-center bg-[#545B77] pt-20 pb-10 xl:pt-20 xl:pb-0 px-8 xl:px-24"
-      id="sawit"
-    >
+    <div className="items-center bg-[#545B77] py-10 xl:pt-12 xl:pb-0 px-8 xl:px-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"
+          id="gogik"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
@@ -69,7 +67,7 @@ const Agrowisata3 = () => {
               <div className="font-black text-[#FFFDEC] font-Satisfy text-2xl sm:text-3xl text-justify xl:text-4xl mb-3">
                 Rute Pendakian Gunung Andong
                 <br />
-                Via Sawit
+                Via Gogik
               </div>
               <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 xl:hidden">
                 <p className="text-light-blue font-bold">
@@ -77,13 +75,11 @@ const Agrowisata3 = () => {
                 </p>
               </div>
               <p className="text-justify xl:hidden">
-                Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
-                pemula karena jalur ini telah disusun sedemikian rupa untuk
-                memudahkan para pendaki untuk menikmati alam selama perjalanan
-                untuk mencapai puncak Gunung Andong. Anda tidak perlu khawatir
-                kelelahan karena terdapat beberapa pos yang menyediakan tempat
-                beristirahat, toilet bahkan beberapa warung untuk mengisi
-                energi.
+                Rute ini menjadi tempat bagi anda yang menyukai tantangan. Rute
+                ini memiliki konsep trek sengaja dibuat sealami mungkin. trek
+                ini diperuntukan bagi pendaki yang ingin mencoba pengalaman
+                mendaki tanpa mengikuti jalur yang telah dibuka sehingga para
+                pendaki dapat meningkatkan kemampuan mendakinya.
               </p>
             </div>
           </div>
@@ -94,25 +90,24 @@ const Agrowisata3 = () => {
                   Tiket Pendakian: 25.000
                 </p>
               </div>
-              Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
-              pemula karena jalur ini telah disusun sedemikian rupa untuk
-              memudahkan para pendaki untuk menikmati alam selama perjalanan
-              untuk mencapai puncak Gunung Andong. Anda tidak perlu khawatir
-              kelelahan karena terdapat beberapa pos yang menyediakan tempat
-              beristirahat, toilet bahkan beberapa warung untuk mengisi energi.
+              Rute ini menjadi tempat bagi anda yang menyukai tantangan. Rute
+              ini memiliki konsep trek sengaja dibuat sealami mungkin. trek ini
+              diperuntukan bagi pendaki yang ingin mencoba pengalaman mendaki
+              tanpa mengikuti jalur yang telah dibuka sehingga para pendaki
+              dapat meningkatkan kemampuan mendakinya.
             </div>
             <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
               <img
                 className="rounded-xl xl:h-3/4 w-full"
-                src={gambar1}
+                src={gambar3}
                 alt="rectangle"
               ></img>
             </div>
-            <div className="flex justify-center items-center xl:h-[0%] transform xl:pb-0 md:col-span-1 xl:col-span-1">
-              <img className="rounded-xl" src={gambar2} alt="rectangle"></img>
+            <div className="flex justify-center items-center xl:h-1/2 transform xl:pb-0 md:col-span-1 xl:col-span-1">
+              <img className="rounded-xl" src={gambar1} alt="rectangle"></img>
             </div>
-            <div className="flex justify-center transform xl:pb-0 md:col-span-1 xl:col-span-1 items-center xl:h-2/3">
-              <img className="rounded-xl" src={gambar3} alt="rectangle"></img>
+            <div className="flex justify-center transform xl:pb-0 md:col-span-1 xl:col-span-1 items-center xl:h-3/4">
+              <img className="rounded-xl" src={gambar2} alt="rectangle"></img>
             </div>
           </div>
         </div>
@@ -121,4 +116,4 @@ const Agrowisata3 = () => {
   );
 };
 
-export default Agrowisata3;
+export default Agrowisata4;
