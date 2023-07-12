@@ -121,7 +121,7 @@ const Agrowisata3 = () => {
         >
           <div className="pointer-events-none" id="pendem">
             <div className="mt-1 sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="font-black text-dark-blue font-Satisfy text-2xl sm:text-3xl text-justify xl:text-4xl mb-3">
+              <div className="font-black text-dark-blue font-Satisfy text-2xl sm:text-3xl text-right xl:text-4xl mb-3">
                 Rute Pendakian Gunung Andong
                 <br />
                 Via Pendem
