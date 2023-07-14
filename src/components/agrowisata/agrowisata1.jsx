@@ -123,7 +123,6 @@ const Agrowisata1 = () => {
             tergantung dari rute pendakian yang anda pilih.
           </div>
           <div className="xl:pb-0 items-center justify-center flex">
-            {/* <h3>2</h3> */}
             <img className="" src={map_muncak} alt="rectangle"></img>
           </div>
         </div>

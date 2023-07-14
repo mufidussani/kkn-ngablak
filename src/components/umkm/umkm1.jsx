@@ -64,7 +64,7 @@ const Umkm1 = () => {
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="text-[#545B77] font-Satisfy text-3xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
                 Produk Desa
-                <div className="text-[#545B77] text-lg sm:text-base text-center text">
+                <div className="text-[#545B77] font-normal text-base text-center text">
                   Produk yang sedang dikembangkan
                 </div>
               </div>
