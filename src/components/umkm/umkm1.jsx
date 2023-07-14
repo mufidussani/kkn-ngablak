@@ -53,7 +53,7 @@ const Umkm1 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-[#FFFDEC] py-24 xl:py-24 px-8 xl:px-24">
+    <div className="items-center bg-[#FFFDEC] pt-24 pb-12 xl:py-24 px-8 xl:px-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"
@@ -62,10 +62,10 @@ const Umkm1 = () => {
         >
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="text-[#545B77] font-Satisfy text-2xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
+              <div className="text-[#545B77] font-Satisfy text-3xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
                 Produk Desa
-                <div className="text-[#545B77] sm:text-base text-center mr-10 text">
-                Produk yang sedang dikembangkan
+                <div className="text-[#545B77] text-lg sm:text-base text-center text">
+                  Produk yang sedang dikembangkan
                 </div>
               </div>
             </div>
@@ -73,17 +73,21 @@ const Umkm1 = () => {
           {/* <div className="text-[#545B77] sm:text-base xl:text-xl text-center mb-10">
             Telusuri lebih lanjut tentang apa yang kami tawarkan.
           </div> */}
-          <div className="container flex-col xl:flex-row flex items-center">
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
+          <div className="flex-col xl:flex-row flex items-center justify-center">
+            {/* <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="" src={gambar1} alt="rectangle"></img>
               <div className="text-[#545B77] sm:text-base text-center mr-11 text">
                 Keripik
               </div>
-            </div>
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
+            </div> */}
+            <div className="transform xl:pb-0 content-center">
               {/* <h3>2</h3> */}
-              <img className="" src={gambar2} alt="rectangle"></img>
-              <div className="text-[#545B77] sm:text-base text-center mr-11 text">
+              <img
+                className="rounded-xl max-h-[60vh] items-center flex justify-center content-center"
+                src={gambar2}
+                alt="rectangle"
+              ></img>
+              <div className="text-[#545B77] text-center mt-4 text-xl font-bold">
                 Pupuk Organik Cair
               </div>
             </div>
