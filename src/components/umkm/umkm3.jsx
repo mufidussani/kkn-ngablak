@@ -64,50 +64,45 @@ const Umkm3= () => {
         >
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="text-[#545B77] font-Satisfy text-2xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
+              <div className="text-light-green font-Satisfy text-2xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
               Kopi Terbaik dari Kaki Gunung
-                <div className="text-[#545B77] sm:text-base text-center mr-10 text">
+                <div className="text-light-green sm:text-base text-center mr-10 text">
                 Kopi Sulur siap menemani liburan Anda dengan aroma mengikat dan kenikmatan yang tak terlupakan
                 </div>
               </div>
             </div>
           </div>
-          {/* <div className="text-[#545B77] sm:text-base xl:text-xl text-center mb-10">
+          {/* <div className="text-light-green sm:text-base xl:text-xl text-center mb-10">
             Telusuri lebih lanjut tentang apa yang kami tawarkan.
           </div> */}
         </div >
-        <div className="relative items-center text-white text-sm"
-          data-aos-duration="1000"
-        >
         <div className="container flex-col xl:flex-row flex items-center">
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4"
-                data-aos="fade-right">
+          <div className="relative container flex-col xl:flex-row flex items-center text-white text-sm"
+            data-aos-duration="1000" data-aos="fade-right">
+            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="" src={gambar1} alt="rectangle"></img>
-              <div className="text-[#545B77] sm:text-base text-center mr-11">
+              <div className="text-light-green sm:text-base text-center mr-11">
                 Natural
               </div>
             </div>
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4"
-                data-aos="fade-right">
-              {/* <h3>2</h3> */}
+            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="" src={gambar2} alt="rectangle"></img>
-              <div className="text-[#545B77] sm:text-base text-center mr-11">
+              <div className="text-light-green sm:text-base text-center mr-11">
                 Asalan
               </div>
             </div>
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4"
-                data-aos="fade-left">
-              {/* <h3>2</h3> */}
+          </div>
+          <div className="relative container flex-col xl:flex-row flex items-center text-white text-sm"
+            data-aos-duration="1000" data-aos="fade-left">
+            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="" src={gambar3} alt="rectangle"></img>
-              <div className="text-[#545B77] sm:text-base text-center mr-11">
+              <div className="text-light-green sm:text-base text-center mr-11">
                 Honey
               </div>
             </div>
-            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4"
-                data-aos="fade-left">
-              {/* <h3>2</h3> */}
+            <div className="transform hover:transition-all hover:scale-[105%] pb-4 xl:pb-0 px-4">
               <img className="" src={gambar4} alt="rectangle"></img>
-              <div className="text-[#545B77] sm:text-base text-center mr-11">
+              <div className="text-light-green sm:text-base text-center mr-11">
                 Telomoyo
               </div>
             </div>
