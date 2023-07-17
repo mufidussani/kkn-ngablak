@@ -109,7 +109,7 @@ const footer = () => {
               </div>
             </div>
             {/* kontak person whatsapp */}
-            <div className="flex flex-col text-base xl:text-lg text-white gap-2 xl:py-6">
+            <div className="flex flex-col text-base xl:text-lg text-white gap-2 xl:my-6">
               <div className="flex flex-col gap-2">
                 <p className="font-bold">Hubungi Kami</p>
                 <a
@@ -161,7 +161,7 @@ const footer = () => {
         </div>
       </div>
       <p className="text-xs text-white bg-light-blue mt-3 py-2">
-        Developed by Tim KKN Saujana Ngablak 2023
+        Developed by Tim KKN-PPM UGM - Saujana Ngablak 2023
       </p>
     </footer>
   );

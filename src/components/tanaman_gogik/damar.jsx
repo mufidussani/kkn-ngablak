@@ -42,12 +42,12 @@ const Damar = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <p className="font-bold text-xl">
+        <p className="font-bold text-xl xl:text-2xl">
           Damar
           <br />
           <span className="italic">Agathis dammara</span>
         </p>
-        <div className="flex flex-col xl:grid xl:grid-cols-3 xl:pt-2">
+        <div className="flex flex-col xl:grid xl:grid-cols-3 gap-6 xl:pt-2">
           <div className="xl:col-span-1 py-3 xl:py-0">
             <img
               className="rounded-xl max-h-[50vh] w-full"
@@ -55,11 +55,17 @@ const Damar = () => {
               alt="rectangle"
             ></img>
           </div>
-          <div className="xl:col-span-2 text-justify xl:pl-12">
+          <div className="xl:col-span-2 text-justify xl:text-lg">
             <div className="bg-dark-blue text-basic p-3 rounded-lg mb-2">
-              Kelas
+              Kelas : Pinopsida
               <br />
-              Spesies
+              Ordo : Pinales
+              <br />
+              Famili : Araucariaceae
+              <br />
+              Genus : Agathis
+              <br />
+              Spesies : <span className="italic">Agathis dammara</span>
             </div>
             Agathis dammara, juga dikenal sebagai pohon damar, adalah tanaman
             pohon konifer yang tumbuh di wilayah Asia Tenggara. Pohon ini
@@ -72,6 +78,13 @@ const Damar = () => {
             penting karena memberikan peneduh, habitat bagi keanekaragaman
             hayati, dan menghasilkan oksigen. Namun, eksploitasi berlebihan dan
             deforestasi mengancam kelestariannya.
+            <br />
+            <span className="font-bold">Manfaat</span>
+            <br />
+            Damar menghasilkan getah (kopal) sebagai bahan pembuatan cat,
+            vernis, spiritus, pelapis tekstil, dan minyak pelapis lantai.
+            Sementara itu, kayunya digunakan untuk bahan korek api, vinir, kayu
+            lapis, dan perabot rumah tangga.
           </div>
         </div>
       </div>

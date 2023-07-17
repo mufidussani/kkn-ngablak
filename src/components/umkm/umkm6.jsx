@@ -59,9 +59,10 @@ const Umkm6 = () => {
 
   return (
     <>
-      <div className="text-[#545B77] bg-basic font-bold text-2xl xl:text-4xl text-center xl:px-24 px-4 pb-8">
-        Terdapat persewaan peralatan mendaki bagi anda yang tidak ingin
-        repot-repot membawa peralatan dari rumah.
+      <div className="text-[#545B77] bg-basic font-bold text-2xl text-center xl:px-24 px-4 pb-8">
+        Terdapat persewaan peralatan mendaki bagi Anda
+        <br />
+        yang tidak ingin repot-repot membawa peralatan dari rumah.
       </div>
       <div className="items-center bg-light-blue pt-4 pb-12 xl:pt-8 px-8 xl:px-24">
         <div className="">
@@ -73,7 +74,7 @@ const Umkm6 = () => {
             <div className="font-black pointer-events-none">
               <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
                 <div className="text-basic font-Satisfy text-3xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
-                  <div className="text-basic font-bold text-2xl xl:text-3xl text-center mt-2">
+                  <div className="text-basic font-bold text-2xl text-center mt-2">
                     Kunjungi beberapa toko ini di basecamp masing-masing rute.
                   </div>
                 </div>

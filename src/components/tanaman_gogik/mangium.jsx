@@ -42,24 +42,30 @@ const Mangium = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <p className="font-bold text-xl">
+        <p className="font-bold text-xl xl:text-2xl">
           Mangium
           <br />
           <span className="italic">Acacia mangium</span>
         </p>
-        <div className="flex flex-col xl:grid xl:grid-cols-3 xl:pt-2">
+        <div className="flex flex-col xl:grid xl:grid-cols-3 gap-6 xl:pt-2">
           <div className="xl:col-span-1 py-3 xl:py-0">
             <img
-              className="rounded-xl max-h-[50vh] w-full"
+              className="rounded-xl max-h-[50vh] object-cover w-full"
               src={acacia_mangium}
               alt="rectangle"
             ></img>
           </div>
-          <div className="xl:col-span-2 text-justify xl:pl-12">
+          <div className="xl:col-span-2 text-justify xl:text-lg">
             <div className="bg-dark-blue text-basic p-3 rounded-lg mb-2">
-              Kelas
+              Kelas : Magnoliopsida
               <br />
-              Spesies
+              Ordo : Fabales
+              <br />
+              Famili : Fabaceae
+              <br />
+              Genus : Acacia
+              <br />
+              Spesies : <span className="italic">Acacia mangium</span>
             </div>
             Acacia mangium adalah tanaman pohon yang berasal dari keluarga
             Fabaceae dan ditemukan di berbagai wilayah tropis. Pohon ini
@@ -71,6 +77,13 @@ const Mangium = () => {
             penghasil kayu yang kuat dan tahan lama, sehingga sering digunakan
             dalam industri kayu. Acacia mangium juga memberikan manfaat
             lingkungan sebagai tanaman peneduh dan penghijauan lahan.
+            <br />
+            <span className="font-bold">Manfaat</span>
+            <br />
+            Akasia mangium menghasilkan kayu sebagai bahan baku pulp dan kertas.
+            Selain itu, kayunya juga dapat digunakan untuk kayu gergajian,
+            vinir, papan partikel, dan kayu bakar. Daun akasia dimanfaatkan
+            untuk pakan ternak.
           </div>
         </div>
       </div>

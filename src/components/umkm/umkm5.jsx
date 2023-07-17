@@ -67,7 +67,7 @@ const Umkm5 = () => {
         >
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="text-[#545B77] font-Satisfy text-3xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
+              <div className="text-[#545B77] font-Satisfy text-3xl sm:text-3xl xl:text-5xl font-bold text-center mb-6">
                 Basecamp
                 <div className="text-[#545B77] text-sm xl:text-xl text-center mt-2 font-normal">
                   Berbagai basecamp disediakan bagi Anda untuk beristirahat dan

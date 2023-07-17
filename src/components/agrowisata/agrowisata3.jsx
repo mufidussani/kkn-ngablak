@@ -139,6 +139,13 @@ const Agrowisata3 = () => {
             </div>
           </div>
           <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-3 pt-4">
+            <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
+              <img
+                className="rounded-xl xl:h-[40vh] object-cover w-full"
+                src={gambar1}
+                alt="rectangle"
+              ></img>
+            </div>
             <div className="xl:row-span-1 hidden xl:block text-xl text-justify text-dark-blue">
               <div className="rounded-xl bg-dark-blue text-justify p-3 mb-3 hidden xl:flex">
                 <p className="text-basic font-bold">Tiket Pendakian: 25.000</p>
@@ -151,23 +158,16 @@ const Agrowisata3 = () => {
                 bagi para atlet trail runner.
               </p>
             </div>
-            <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
-              <img
-                className="rounded-xl xl:h-[40vh] object-cover w-full"
-                src={gambar1}
-                alt="rectangle"
-              ></img>
-            </div>
             <div className="flex justify-center items-center transform xl:pb-0 md:col-span-1">
               <img
-                className="rounded-xl object-cover w-full h-[60vh]"
+                className="rounded-xl object-cover w-full h-full xl:h-[60vh]"
                 src={gambar2}
                 alt="rectangle"
               ></img>
             </div>
             <div className="flex justify-center transform xl:pb-0 md:col-span-1 items-center">
               <img
-                className="rounded-xl object-cover w-full h-[60vh]"
+                className="rounded-xl object-cover w-full h-full xl:h-[60vh]"
                 src={gambar3}
                 alt="rectangle"
               ></img>

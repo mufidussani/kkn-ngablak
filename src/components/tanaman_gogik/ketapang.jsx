@@ -6,28 +6,6 @@ import "aos/dist/aos.css";
 // import "./tentang.css";
 
 const Ketapang = () => {
-  const handlePendem = () => {
-    const element = document.getElementById("pendem");
-    if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-  const handleGogik = () => {
-    const element = document.getElementById("gogik");
-    if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-  const handleSawit = () => {
-    const element = document.getElementById("sawit");
-    if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   AOS.init();
   AOS.refresh();
   AOS.refreshHard();
@@ -42,12 +20,12 @@ const Ketapang = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <p className="font-bold text-xl">
+        <p className="font-bold text-xl xl:text-2xl">
           Ketapang
           <br />
           <span className="italic">Terminalia catappa</span>
         </p>
-        <div className="flex flex-col xl:grid xl:grid-cols-3 xl:pt-2">
+        <div className="flex flex-col xl:grid xl:grid-cols-3 gap-6 xl:pt-2">
           <div className="xl:col-span-1 py-3 xl:py-0">
             <img
               className="rounded-xl max-h-[50vh] w-full"
@@ -55,11 +33,17 @@ const Ketapang = () => {
               alt="rectangle"
             ></img>
           </div>
-          <div className="xl:col-span-2 text-justify xl:pl-12">
+          <div className="xl:col-span-2 text-justify xl:text-lg">
             <div className="bg-dark-blue text-basic p-3 rounded-lg mb-2">
-              Kelas
+              Kelas : Magnoliopsida
               <br />
-              Spesies
+              Ordo : Myrtales
+              <br />
+              Famili : Combretaceae
+              <br />
+              Genus : Terminalia
+              <br />
+              Spesies : <span className="italic">Terminalia catappa</span>
             </div>
             Terminalia catappa, juga dikenal sebagai pohon ketapang atau pohon
             badam, adalah tanaman hijau abadi yang berasal dari daerah tropis di
@@ -72,6 +56,14 @@ const Ketapang = () => {
             digunakan dalam konstruksi dan pembuatan perabot. Tanaman ini juga
             memiliki nilai estetika yang tinggi dan menjadi pilihan populer
             sebagai tanaman hias di taman dan pekarangan.
+            <br />
+            <span className="font-bold">Manfaat</span>
+            <br />
+            Ketapang dapat digunakan sebagai bahan ramuan tradisional. Di
+            antaranya dapat dipergunakan untuk mengobati diare, radang perut,
+            hipertensi, rematik sendi, disentri, lepra, kudis, dan penyakit
+            kulit lainnya. Lebih lanjut, tanaman ketapang bahkan dapat
+            menyembukan hipertensi.
           </div>
         </div>
       </div>

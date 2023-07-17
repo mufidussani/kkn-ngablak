@@ -96,7 +96,7 @@ const Agrowisata4 = () => {
             </div>
           </div>
           <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-3 pt-4">
-            <div className="xl:row-span-1 hidden xl:block text-xl text-justify">
+            <div className="xl:row-span-1 xl:col-span-2 hidden xl:block text-xl text-justify">
               <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 hidden xl:flex">
                 <p className="text-light-blue font-bold">
                   Tiket Pendakian: 25.000
@@ -112,16 +112,26 @@ const Agrowisata4 = () => {
               untuk mengetahui jenis dan informasi tanaman yang ada di sepanjang
               jalur pendakian. Untuk dapat mengetahui berbagai jenis tanaman
               yang ada, kunjungi melalui tombol berikut.
-              <Link to="/agrowisata/gogik">
-                <button
-                  onClick={() => {
-                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-                  }}
-                  class="mt-4 rounded bg-[#FFFDEC] py-2 px-6 font-Montserrat text-lg md text-dark-blue transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)] mobile:text-sm mb-4"
-                >
-                  Selengkapnya
-                </button>
-              </Link>
+              <br />
+              <div className="flex justify-center">
+                <Link to="/agrowisata/gogik">
+                  <button
+                    onClick={() => {
+                      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                    }}
+                    class="mt-4 rounded bg-[#FFFDEC] py-2 px-6 font-Montserrat text-lg md text-dark-blue transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)] mobile:text-sm mb-4"
+                  >
+                    Selengkapnya
+                  </button>
+                </Link>
+              </div>
+            </div>
+            <div className="flex justify-center transform xl:pb-0 md:col-span-2 items-center ">
+              <img
+                className="rounded-xl object-cover xl:h-[60vh] w-full"
+                src={gambar2}
+                alt="rectangle"
+              ></img>
             </div>
             <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
               <img
@@ -134,13 +144,6 @@ const Agrowisata4 = () => {
               <img
                 className="rounded-xl object-cover xl:h-[60vh] w-full"
                 src={gambar1}
-                alt="rectangle"
-              ></img>
-            </div>
-            <div className="flex justify-center transform xl:pb-0 md:col-span-1 items-center ">
-              <img
-                className="rounded-xl object-cover xl:h-[60vh] w-full"
-                src={gambar2}
                 alt="rectangle"
               ></img>
             </div>

@@ -42,12 +42,12 @@ const Kopi = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <p className="font-bold text-xl">
+        <p className="font-bold text-xl xl:text-2xl">
           Kopi
           <br />
-          <span className="italic">Coffea sp</span>
+          <span className="italic">Coffea canephora</span>
         </p>
-        <div className="flex flex-col xl:grid xl:grid-cols-3 xl:pt-2">
+        <div className="flex flex-col xl:grid xl:grid-cols-3 gap-6 xl:pt-2">
           <div className="xl:col-span-1 py-3 xl:py-0">
             <img
               className="rounded-xl max-h-[50vh] w-full"
@@ -55,11 +55,17 @@ const Kopi = () => {
               alt="rectangle"
             ></img>
           </div>
-          <div className="xl:col-span-2 text-justify xl:pl-12">
+          <div className="xl:col-span-2 text-justify xl:text-lg">
             <div className="bg-dark-blue text-basic p-3 rounded-lg mb-2">
-              Kelas
+              Kelas : Magnoliopsida
               <br />
-              Spesies
+              Ordo : Gentianales
+              <br />
+              Famili : Rubiaceae
+              <br />
+              Genus : Coffea
+              <br />
+              Spesies : <span className="italic">Coffea canephora</span>
             </div>
             Coffea sp. adalah tanaman berbunga yang terkenal sebagai pohon
             penghasil biji kopi. Tanaman ini berasal dari keluarga Rubiaceae dan
@@ -71,6 +77,12 @@ const Kopi = () => {
             penggongsengannya untuk menghasilkan biji kopi yang siap diseduh.
             Tanaman Coffea sp. tumbuh baik di tanah subur dan membutuhkan
             kondisi iklim yang hangat dan lembap untuk tumbuh dengan baik.
+            <br />
+            <span className="font-bold">Manfaat</span>
+            <br />
+            Tanaman ini menghasilkan biji yang dimanfaatkan untuk industri
+            minuuman kopi. Selain itu, bijinya yang beraroma sedah juga diminati
+            sebagai bahan baku untuk minyak wangi maupun pengharum ruangan.
           </div>
         </div>
       </div>

@@ -42,12 +42,12 @@ const Sengon = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <p className="font-bold text-xl">
+        <p className="font-bold text-xl xl:text-2xl">
           Sengon
           <br />
           <span className="italic">Falcataria moluccana</span>
         </p>
-        <div className="flex flex-col xl:grid xl:grid-cols-3 xl:pt-2">
+        <div className="flex flex-col xl:grid xl:grid-cols-3 gap-6 xl:pt-2">
           <div className="xl:col-span-1 py-3 xl:py-0">
             <img
               className="rounded-xl max-h-[50vh] w-full"
@@ -55,22 +55,35 @@ const Sengon = () => {
               alt="rectangle"
             ></img>
           </div>
-          <div className="xl:col-span-2 text-justify xl:pl-12">
+          <div className="xl:col-span-2 text-justify xl:text-lg">
             <div className="bg-dark-blue text-basic p-3 rounded-lg mb-2">
-              Kelas
+              Kelas : Magnoliopsida
               <br />
-              Spesies
+              Ordo : Fabales
+              <br />
+              Famili : Fabaceae
+              <br />
+              Genus : Falcataria
+              <br />
+              Spesies : <span className="italic">Falcataria moluccana</span>
             </div>
-            Falcataria moluccana, juga dikenal sebagai pohon gamal atau albizia,
-            adalah tanaman pohon cepat tumbuh yang berasal dari wilayah Asia
-            Tenggara. Pohon ini memiliki daun majemuk berbentuk bulat dengan
-            pola yang khas. Falcataria moluccana tumbuh tegak dengan batang yang
-            lurus dan kuat. Tanaman ini sering digunakan dalam penghijauan,
-            agroforestri, dan sebagai sumber kayu serbaguna. Kayu pohon gamal
-            ringan, kuat, dan mudah diolah, sehingga digunakan dalam konstruksi,
-            pembuatan perabot, dan bahan baku industri. Selain itu, Falcataria
-            moluccana juga memiliki manfaat dalam penyerapan karbon, perbaikan
-            kualitas tanah, dan peneduh.
+            Falcataria moluccana, juga dikenal sebagai pohon sengon atau
+            albizia, adalah tanaman pohon cepat tumbuh yang berasal dari wilayah
+            Asia Tenggara. Pohon ini memiliki daun majemuk berbentuk bulat
+            dengan pola yang khas. Falcataria moluccana tumbuh tegak dengan
+            batang yang lurus dan kuat. Tanaman ini sering digunakan dalam
+            penghijauan, agroforestri, dan sebagai sumber kayu serbaguna. Kayu
+            pohon gamal ringan, kuat, dan mudah diolah, sehingga digunakan dalam
+            konstruksi, pembuatan perabot, dan bahan baku industri. Selain itu,
+            Falcataria moluccana juga memiliki manfaat dalam penyerapan karbon,
+            perbaikan kualitas tanah, dan peneduh.
+            <br />
+            <span className="font-bold">Manfaat</span>
+            <br />
+            Tanaman sengon dapat dimanfaatkan sebagai penghijauan dan reboisasi,
+            pelindung dan penyubur tanah, bahan baku kayu bakar, dan bahan baku
+            pulp lertas. Selain itu, daun tanaman sengon juga bermanfaat sebagai
+            pakan ternak.
           </div>
         </div>
       </div>
