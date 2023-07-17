@@ -112,7 +112,7 @@ const Agrowisata3 = () => {
   //   </div>
   // );
   return (
-    <div className="items-center bg-basic py-10 xl:pt-12 xl:pb-0 px-8 xl:px-24 xl:-mb-24">
+    <div className="items-center bg-basic py-10 xl:pt-12 px-8 xl:px-24 xl:pb-12">
       <div className="">
         <div
           className="relative items-center text-sm"
@@ -138,7 +138,7 @@ const Agrowisata3 = () => {
               </p>
             </div>
           </div>
-          <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-4 pt-4">
+          <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-3 pt-4">
             <div className="xl:row-span-1 hidden xl:block text-xl text-justify text-dark-blue">
               <div className="rounded-xl bg-dark-blue text-justify p-3 mb-3 hidden xl:flex">
                 <p className="text-basic font-bold">Tiket Pendakian: 25.000</p>
@@ -153,16 +153,24 @@ const Agrowisata3 = () => {
             </div>
             <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
               <img
-                className="rounded-xl xl:h-3/4 w-full"
+                className="rounded-xl xl:h-[40vh] object-cover w-full"
                 src={gambar1}
                 alt="rectangle"
               ></img>
             </div>
-            <div className="flex justify-center items-center xl:h-1/2 transform xl:pb-0 md:col-span-1 xl:col-span-1">
-              <img className="rounded-xl" src={gambar2} alt="rectangle"></img>
+            <div className="flex justify-center items-center transform xl:pb-0 md:col-span-1">
+              <img
+                className="rounded-xl object-cover w-full h-[60vh]"
+                src={gambar2}
+                alt="rectangle"
+              ></img>
             </div>
-            <div className="flex justify-center transform xl:pb-0 md:col-span-1 xl:col-span-1 items-center xl:h-1/2">
-              <img className="rounded-xl" src={gambar3} alt="rectangle"></img>
+            <div className="flex justify-center transform xl:pb-0 md:col-span-1 items-center">
+              <img
+                className="rounded-xl object-cover w-full h-[60vh]"
+                src={gambar3}
+                alt="rectangle"
+              ></img>
             </div>
           </div>
         </div>

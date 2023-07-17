@@ -55,7 +55,7 @@ const Agrowisata3 = () => {
 
   return (
     <div
-      className="items-center bg-[#545B77] pt-20 pb-10 xl:pt-20 xl:pb-0 px-8 xl:px-24"
+      className="items-center bg-[#545B77] pt-20 pb-10 xl:pt-20 xl:pb-12 px-8 xl:px-24"
       id="sawit"
     >
       <div className="">
@@ -87,7 +87,7 @@ const Agrowisata3 = () => {
               </p>
             </div>
           </div>
-          <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-4 pt-4">
+          <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-3 pt-4">
             <div className="xl:row-span-1 hidden xl:block text-xl text-justify">
               <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 hidden xl:flex">
                 <p className="text-light-blue font-bold">
@@ -101,18 +101,26 @@ const Agrowisata3 = () => {
               kelelahan karena terdapat beberapa pos yang menyediakan tempat
               beristirahat, toilet bahkan beberapa warung untuk mengisi energi.
             </div>
-            <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
+            <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:h-[40vh] xl:col-span-1">
               <img
-                className="rounded-xl xl:h-3/4 w-full"
+                className="rounded-xl object-cover w-full"
                 src={gambar1}
                 alt="rectangle"
               ></img>
             </div>
-            <div className="flex justify-center items-center xl:h-[0%] transform xl:pb-0 md:col-span-1 xl:col-span-1">
-              <img className="rounded-xl" src={gambar2} alt="rectangle"></img>
+            <div className="flex justify-center items-center transform xl:pb-0 md:col-span-1">
+              <img
+                className="rounded-xl object-cover xl:h-[60vh] w-full"
+                src={gambar2}
+                alt="rectangle"
+              ></img>
             </div>
-            <div className="flex justify-center transform xl:pb-0 md:col-span-1 xl:col-span-1 items-center xl:h-2/3">
-              <img className="rounded-xl" src={gambar3} alt="rectangle"></img>
+            <div className="flex justify-center transform xl:pb-0 md:col-span-1 items-center ">
+              <img
+                className="rounded-xl xl:h-[60vh] w-full object-cover"
+                src={gambar3}
+                alt="rectangle"
+              ></img>
             </div>
           </div>
         </div>

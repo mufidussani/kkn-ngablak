@@ -58,7 +58,7 @@ const Umkm5 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-[#FFFDEC] pt-24 pb-12 xl:py-24 px-8 xl:px-24">
+    <div className="items-center bg-[#FFFDEC] pt-24 pb-12 px-8 xl:px-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"
@@ -69,46 +69,46 @@ const Umkm5 = () => {
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="text-[#545B77] font-Satisfy text-3xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
                 Basecamp
-                <div className="text-[#545B77] text-sm xl:text-lg text-center mt-2 font-normal">
+                <div className="text-[#545B77] text-sm xl:text-xl text-center mt-2 font-normal">
                   Berbagai basecamp disediakan bagi Anda untuk beristirahat dan
                   menyiapkan perjalanan anda menuju puncak Gunung Andong.
                 </div>
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-4 xl:grid-cols-6 xl:flex-row items-center justify-center">
-            <div className=" xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-2 xl:col-start-2 flex justify-center items-center mb-3 mr-1">
+          <div className="grid grid-cols-4 xl:grid-cols-6 xl:flex-row items-center justify-center gap-3">
+            <div className=" xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-3 xl:h-[60vh] h-[30vh] w-full flex justify-center items-center">
               <img
-                className="rounded-xl h-full w-full items-center flex justify-center content-center justify-self-center"
-                src={gambar5}
-                alt="rectangle"
-              ></img>
-            </div>
-            <div className="xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-2 xl:col-start-4 flex justify-center items-center mb-3 ml-1">
-              <img
-                className="rounded-xl h-full w-full items-center flex justify-center content-center justify-self-center"
-                src={gambar2}
-                alt="rectangle"
-              ></img>
-            </div>
-            <div className="transform xl:pb-0 flex justify-center items-center xl:col-span-2 col-span-4 mb-3 xl:mr-1">
-              <img
-                className="rounded-xl h-full w-full items-center flex justify-center content-center"
+                className="rounded-xl h-full w-full object-cover items-center flex justify-center content-center justify-self-center"
                 src={gambar1}
                 alt="rectangle"
               ></img>
             </div>
-
-            <div className="transform xl:pb-0 content-center col-span-2 flex justify-center xl:col-span-2 items-center mb-3 mr-1 xl:ml-1">
+            <div className="xl:pb-0 content-center justify-self-center col-span-2 xl:col-span-3 xl:h-[60vh] h-[30vh] w-full flex justify-center items-center">
               <img
-                className="rounded-xl h-full w-full items-center flex justify-center content-center"
+                className="rounded-xl h-full w-full items-center object-cover flex justify-center content-center justify-self-center"
+                src={gambar2}
+                alt="rectangle"
+              ></img>
+            </div>
+            <div className="transform xl:pb-0 flex justify-center items-center xl:h-[50vh] xl:col-span-2 h-[30vh] col-span-4">
+              <img
+                className="rounded-xl h-full w-full items-center object-cover flex justify-center content-center"
                 src={gambar3}
                 alt="rectangle"
               ></img>
             </div>
-            <div className="transform xl:pb-0 content-center col-span-2 flex justify-center xl:col-span-2 items-center mb-3 ml-1">
+
+            <div className="transform xl:pb-0 content-center col-span-2 xl:h-[50vh] flex justify-center h-[30vh] xl:col-span-2 items-center">
               <img
-                className="rounded-xl h-full w-full items-center flex justify-center content-center"
+                className="rounded-xl h-full w-full items-center object-cover flex justify-center content-center"
+                src={gambar5}
+                alt="rectangle"
+              ></img>
+            </div>
+            <div className="transform xl:pb-0 content-center col-span-2 xl:h-[50vh] flex justify-center h-[30vh] xl:col-span-2 items-center">
+              <img
+                className="rounded-xl h-full w-full items-center object-cover flex justify-center content-center"
                 src={gambar4}
                 alt="rectangle"
               ></img>

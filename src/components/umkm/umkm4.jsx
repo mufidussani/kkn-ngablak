@@ -63,7 +63,7 @@ const Umkm4 = () => {
           SUMBER DARI BIBIT BERKUALITAS
         </div>
 
-        <div className="flex-col flex xl:grid xl:grid-cols-2 xl:px-24">
+        <div className="flex-col flex xl:grid xl:grid-cols-2 gap-3 xl:px-24">
           <div className="bg-dark-blue w-full col-span-1">
             <p className="font-bold text-basic pt-2 text-lg">Dempel</p>
             <div className="flex justify-center items-center">
@@ -80,7 +80,7 @@ const Umkm4 = () => {
           </div>
           <div className="px-4 py-8 col-span-1">
             <div className="font-black pointer-events-none">
-              <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
+              <div className="mt-1 justify-center">
                 <div className="text-[#545B77] font-Satisfy text-3xl sm:text-3xl xl:text-5xl font-bold text-left mb-4 xl:mb-12">
                   Sentra Pembibitan
                   {/* <div className="text-[#545B77] text-lg sm:text-base text-center text">
@@ -98,10 +98,10 @@ const Umkm4 = () => {
             </div>
           </div>
           <div className="xl:mt-12 col-span-1">
-            <div className="pb-8 px-4">
+            <div className="pb-8">
               <div className="xl:h-[40vh]">
                 <img
-                  className="rounded-xl h-full w-full items-center flex justify-center content-center"
+                  className="rounded-xl h-full w-full object-cover items-center flex justify-center content-center"
                   src={gambar1}
                   alt="rectangle"
                 ></img>
@@ -109,7 +109,7 @@ const Umkm4 = () => {
               <div className="py-4"></div>
               <div className="xl:h-[40vh]">
                 <img
-                  className="rounded-xl h-full w-full items-center flex justify-center content-center"
+                  className="rounded-xl h-full w-full object-cover items-center flex justify-center content-center"
                   src={gambar2}
                   alt="rectangle"
                 ></img>
