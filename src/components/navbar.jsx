@@ -96,7 +96,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           exact
-          to="/pasar-rakyat"
+          to="/budaya"
           className={({ isActive }) => (isActive ? "font-bold" : "font-normal")}
           style={{
             marginLeft: "1.5rem",

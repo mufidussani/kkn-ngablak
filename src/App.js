@@ -3,9 +3,11 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar";
+
 import Home from "./pages/Home";
 import Agrowisata from "./pages/Agrowisata";
 import Umkm from "./pages/Umkm";
+import Budaya from "./pages/Budaya";
 
 import Amplas from "./pages/Amplas";
 import Damar from "./pages/Damar";
@@ -48,6 +50,7 @@ function App() {
         <Route path="/agrowisata/gogik/damar" element={<Damar />} />
         <Route path="/agrowisata/gogik/amplas" element={<Amplas />} />
         <Route path="/agrowisata/gogik/ketapang" element={<Ketapang />} />
+        <Route path="/budaya" element={<Budaya />} />
       </Routes>
       <Footer />
     </div>

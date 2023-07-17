@@ -6,7 +6,7 @@ import Agrowisata3 from "../components/agrowisata/agrowisata3";
 import Agrowisata4 from "../components/agrowisata/agrowisata4";
 import { HtmlHead } from "../components/HtmlHead";
 
-export default function Home() {
+export default function Agrowisata() {
   return (
     <>
       <HtmlHead

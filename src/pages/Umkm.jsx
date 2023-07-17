@@ -8,7 +8,7 @@ import Umkm5 from "../components/umkm/umkm5";
 import Umkm6 from "../components/umkm/umkm6";
 import { HtmlHead } from "../components/HtmlHead";
 
-export default function Home() {
+export default function Umkm() {
   return (
     <>
       <HtmlHead
