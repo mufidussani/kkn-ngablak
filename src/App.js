@@ -22,6 +22,9 @@ import Puspa from "./pages/Puspa";
 import Sengon from "./pages/Sengon";
 import Sonokeling from "./pages/Sonokeling";
 
+import Tps from "./pages/Tps";
+import NotFound from "./pages/NotFound";
+
 import TanamanGogik from "./pages/TanamanGogik";
 
 import Footer from "./components/footer";
@@ -51,6 +54,9 @@ function App() {
         <Route path="/agrowisata/gogik/amplas" element={<Amplas />} />
         <Route path="/agrowisata/gogik/ketapang" element={<Ketapang />} />
         <Route path="/budaya" element={<Budaya />} />
+        <Route path="/tps" element={<Tps />} />
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

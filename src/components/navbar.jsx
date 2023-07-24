@@ -210,7 +210,7 @@ const Navbar = () => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                 setNavbar(false);
               }}
-              to="/teater"
+              to="/umkm"
               className="block px-2 py-4 text-2xl font-bold transition duration-300 hover:bg-green-500"
             >
               UMKM

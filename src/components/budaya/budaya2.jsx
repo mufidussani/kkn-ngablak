@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import gambar1 from "../../assets/agrowisata/gogik_a.jpg";
-import gambar2 from "../../assets/agrowisata/gogik_b.jpg";
+import gambar2 from "../../assets/budaya/makam_mangli.jpg";
 import gambar3 from "../../assets/agrowisata/gogik_c.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import Slider from "react-slick";
 // import "./tentang.css";
 
-const Agrowisata4 = () => {
+const Budaya2 = () => {
   var settings = {
     dots: false,
     // arrows: false,
@@ -54,66 +54,54 @@ const Agrowisata4 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-[#545B77] py-10 xl:pt-12 xl:pb-12 px-8 xl:px-24">
+    <div className="items-center bg-basic pt-24 pb-12 px-8 xl:px-24">
       <div className="">
         <div
-          className="relative items-center text-white text-sm"
+          className="relative text-light-blue items-center text-sm"
           id="gogik"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
           <div className="pointer-events-none">
             <div className="mt-1 sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="font-black text-[#FFFDEC] font-Satisfy text-2xl sm:text-3xl text-center xl:text-4xl mb-3">
-                Rute Pendakian Gunung Andong
-                <br />
-                Via Gogik
+              <div className="font-black text-light-blue font-Satisfy text-2xl sm:text-3xl text-center xl:text-4xl mb-3">
+                Wisata Religi
               </div>
-              <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 xl:hidden">
+              <div className="font-bold text-xl text-left mb-2 xl:hidden">
+                Makam Mbah Mangli
+              </div>
+              {/* <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 xl:hidden">
                 <p className="text-light-blue font-bold">
                   Tiket Pendakian: 25.000
                 </p>
-              </div>
+              </div> */}
               <p className="text-justify xl:hidden">
-                Rute ini menjadi tempat bagi anda yang menyukai tantangan. Rute
-                ini memiliki konsep trek sengaja dibuat sealami mungkin. trek
-                ini diperuntukan bagi pendaki yang ingin mencoba pengalaman
-                mendaki tanpa mengikuti jalur yang telah dibuka sehingga para
-                pendaki dapat meningkatkan kemampuan mendakinya.
+                Lereng Gunung Andong tepatnya di Dusun Mangli, Desa Girirejo
+                menjadi tempat peristirahatan terakhir bagi KH. Hasan Asy’ari
+                alias Mbah Mangli yang merupakan tokoh agama yang sangat
+                dihormati di Desa Girirejo. Kompleks makam Mbah Mangli menjadi
+                destinasi wisata religius bagi pengikutnya sebagai pengormatan
+                bagi Kiai Mbah Mangli atas jasanya dalam berdakwah.
               </p>
-              <div className="items-start justify-start flex justify-items-start xl:hidden">
-                <Link to="/agrowisata/gogik">
-                  <button
-                    onClick={() => {
-                      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-                    }}
-                    class="mt-4 rounded bg-[#FFFDEC] py-2 px-6 font-Montserrat text-lg md text-dark-blue transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)] mobile:text-sm"
-                  >
-                    Selengkapnya
-                  </button>
-                </Link>
-              </div>
             </div>
           </div>
-          <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-3 pt-4">
-            <div className="xl:row-span-1 xl:col-span-2 hidden xl:block text-xl text-justify">
-              <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 hidden xl:flex">
+          <div className="grid grid-cols-2 xl:grid-cols-2 mt-3 gap-3 xl:gap-6 pt-4">
+            <div className="xl:row-span-1 xl:col-span-1 hidden xl:block text-xl text-justify">
+              {/* <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 hidden xl:flex">
                 <p className="text-light-blue font-bold">
                   Tiket Pendakian: 25.000
                 </p>
+              </div> */}
+              <div className="font-bold text-xl xl:text-3xl text-left mb-2">
+                Makam Mbah Mangli
               </div>
-              Rute ini menjadi tempat bagi anda yang menyukai tantangan. Rute
-              ini memiliki konsep trek sengaja dibuat sealami mungkin. trek ini
-              diperuntukan bagi pendaki yang ingin mencoba pengalaman mendaki
-              tanpa mengikuti jalur yang telah dibuka sehingga para pendaki
-              dapat meningkatkan kemampuan mendakinya.
-              <br />
-              Melewati jalur ini, wisatawan atau pendaki dapat sembari belajar
-              untuk mengetahui jenis dan informasi tanaman yang ada di sepanjang
-              jalur pendakian. Untuk dapat mengetahui berbagai jenis tanaman
-              yang ada, kunjungi melalui tombol berikut.
-              <br />
-              <div className="flex justify-center">
+              Lereng Gunung Andong tepatnya di Dusun Mangli, Desa Girirejo
+              menjadi tempat peristirahatan terakhir bagi KH. Hasan Asy’ari
+              alias Mbah Mangli yang merupakan tokoh agama yang sangat dihormati
+              di Desa Girirejo. Kompleks makam Mbah Mangli menjadi destinasi
+              wisata religius bagi pengikutnya sebagai pengormatan bagi Kiai
+              Mbah Mangli atas jasanya dalam berdakwah.
+              {/* <div className="flex justify-center">
                 <Link to="/agrowisata/gogik">
                   <button
                     onClick={() => {
@@ -124,16 +112,16 @@ const Agrowisata4 = () => {
                     Selengkapnya
                   </button>
                 </Link>
-              </div>
+              </div> */}
             </div>
-            <div className="flex justify-center transform xl:pb-0 col-span-2 md:col-span-2 items-center ">
+            <div className="flex justify-center transform col-span-2 xl:col-span-1 xl:pb-0 items-center ">
               <img
-                className="rounded-xl object-cover xl:h-[60vh] w-full"
+                className="rounded-xl object-cover xl:h-[50vh] w-full"
                 src={gambar2}
                 alt="rectangle"
               ></img>
             </div>
-            <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-1 xl:col-span-1">
+            {/* <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
               <img
                 className="rounded-xl object-cover xl:h-[60vh] w-full"
                 src={gambar3}
@@ -146,7 +134,7 @@ const Agrowisata4 = () => {
                 src={gambar1}
                 alt="rectangle"
               ></img>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -154,4 +142,4 @@ const Agrowisata4 = () => {
   );
 };
 
-export default Agrowisata4;
+export default Budaya2;
