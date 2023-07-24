@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/tps/tps1.jpg";
-import gambar2 from "../../assets/tps/tps2.jpg";
+import gambar1 from "../../assets/tps/tps2.jpg";
+import gambar2 from "../../assets/tps/tps1.jpg";
 import gambar3 from "../../assets/agrowisata/Sawit_Sm.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
@@ -87,7 +87,7 @@ const Tps1 = () => {
                 alt="rectangle"
               ></img>
             </div>
-            <div className="col-span-1 hidden xl:inline-block -mt-32 text-xl text-justify">
+            <div className="col-span-1 hidden xl:inline-block -mt-32 text-xl text-justify bg-light-blue p-8 text-basic rounded-2xl">
               TPS 3R Giri Mulya adalah Kelompok Pemanfaat dan Penerima (KPP)
               Tempat Pengelolaan Sampah di bawah naungan Badan Usaha Milik Desa
               Girirejo (Bumdes). TPS 3R Giri Mulya memiliki peran penting dalam
@@ -95,7 +95,7 @@ const Tps1 = () => {
               dengan baik
             </div>
           </div>
-          <div className="xl:row-span-1 text-base mt-4 text-justify xl:hidden">
+          <div className="xl:row-span-1 text-base mt-4 text-justify xl:hidden p-4 rounded-xl text-basic bg-light-blue">
             TPS 3R Giri Mulya adalah Kelompok Pemanfaat dan Penerima (KPP)
             Tempat Pengelolaan Sampah di bawah naungan Badan Usaha Milik Desa
             Girirejo (Bumdes). TPS 3R Giri Mulya memiliki peran penting dalam

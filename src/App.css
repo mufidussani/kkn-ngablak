@@ -55,3 +55,9 @@
   src: local("Metropolis"),
     url(./fonts/Metropolis/Metropolis-Light.otf) format("opentype");
 }
+
+@font-face {
+  font-family: "Metropolis-SemiBold";
+  src: local("Metropolis"),
+    url(./fonts/Metropolis/Metropolis-SemiBold.otf) format("opentype");
+}

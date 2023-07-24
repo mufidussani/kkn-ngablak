@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/tps/tps1.jpg";
-import gambar2 from "../../assets/tps/tps2.jpg";
-import gambar3 from "../../assets/agrowisata/Sawit_Sm.jpg";
+import gambar1 from "../../assets/tps/kelola_sampah1.jpg";
+import gambar2 from "../../assets/tps/kelola_sampah2.jpg";
+import gambar3 from "../../assets/tps/kelola_sampah3.jpg";
+import gambar4 from "../../assets/tps/kelola_sampah4.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -76,35 +77,35 @@ const Tps4 = () => {
             </div>
           </div>
           <div className="container grid auto-cols-max grid-cols-2 xl:grid-cols-2 xl:pt-2 gap-3">
-            <div className="flex justify-center transform xl:pb-0 xl:row-span-1 col-span-1 xl:h-[40vh] xl:col-span-1">
+            <div className="flex justify-center transform xl:pb-0 xl:row-span-1 col-span-1 xl:h-[60vh] xl:col-span-1">
               <img
                 className="rounded-xl object-cover w-full"
-                src={gambar2}
+                src={gambar1}
                 alt="rectangle"
               ></img>
             </div>
             <div className="flex justify-center items-center transform xl:pb-0 md:col-span-1">
               <img
                 className="rounded-xl object-cover xl:h-[60vh] w-full"
-                src={gambar1}
+                src={gambar2}
                 alt="rectangle"
               ></img>
             </div>
-            <div className="flex justify-center transform xl:pb-0 xl:row-span-1 col-span-1 xl:h-[40vh] xl:col-span-1">
+            <div className="flex justify-center transform xl:pb-0 xl:row-span-1 col-span-1 xl:h-[60vh] xl:col-span-1">
               <img
                 className="rounded-xl object-cover w-full"
-                src={gambar2}
+                src={gambar3}
                 alt="rectangle"
               ></img>
             </div>
             <div className="flex justify-center items-center transform xl:pb-0 md:col-span-1">
               <img
                 className="rounded-xl object-cover xl:h-[60vh] w-full"
-                src={gambar1}
+                src={gambar4}
                 alt="rectangle"
               ></img>
             </div>
-            <div className="col-span-1 hidden xl:inline-block -mt-32 text-xl text-justify">
+            <div className="col-span-2 hidden xl:inline-block text-xl text-basic p-8 rounded-2xl text-justify bg-dark-blue">
               TPS 3R Giri Mulya bekerja sama dengan Pengelola Tempat Pembuangan
               Akhir (TPA) mengelola sampah yang terkumpul di TPS untuk
               disalurkan pada TPA sebagai akhir dari alur perpindahan sampah
@@ -135,7 +136,7 @@ const Tps4 = () => {
               Giri Mulya.
             </div>
           </div>
-          <div className="xl:row-span-1 text-base mt-4 text-justify xl:hidden">
+          <div className="xl:row-span-1 text-base mt-4 text-justify xl:hidden p-4 rounded-xl text-basic bg-dark-blue">
             TPS 3R Giri Mulya bekerja sama dengan Pengelola Tempat Pembuangan
             Akhir (TPA) mengelola sampah yang terkumpul di TPS untuk disalurkan
             pada TPA sebagai akhir dari alur perpindahan sampah hasil dari

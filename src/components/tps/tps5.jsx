@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import gambar1 from "../../assets/tps/tps1.jpg";
-import gambar2 from "../../assets/tps/tps2.jpg";
-import gambar3 from "../../assets/agrowisata/Sawit_Sm.jpg";
+import gambar1 from "../../assets/tps/untung1.jpg";
+import gambar2 from "../../assets/tps/untung2.jpg";
+import gambar3 from "../../assets/tps/untung3.jpg";
+import gambar4 from "../../assets/tps/untung4.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -74,7 +75,7 @@ const Tps5 = () => {
             {/* <div className="text-justify font-bold mb-3 text-base xl:text-xl">
               Pengelolaan Sampah
             </div> */}
-            <p className="text-justify mb-3 text-base xl:text-2xl xl:mt-3">
+            <p className="text-justify mb-3 text-base xl:text-2xl xl:mt-3 bg-light-blue text-basic p-2 rounded-xl xl:p-4 w-auto">
               1) Terjaganya kebersihan lingkungan setiap dusun
               <br />
               2) Biaya langganan yang murah, hanya Rp5000 setiap bulan
@@ -83,31 +84,31 @@ const Tps5 = () => {
             </p>
           </div>
           <div className="container grid auto-cols-max grid-cols-2 xl:grid-cols-2 xl:pt-2 gap-3">
-            <div className="flex justify-center transform xl:pb-0 xl:row-span-1 col-span-1 xl:h-[40vh] xl:col-span-1">
+            <div className="flex justify-center transform xl:pb-0 xl:row-span-1 col-span-1 xl:h-[60vh] xl:col-span-1">
               <img
                 className="rounded-xl object-cover w-full"
-                src={gambar2}
+                src={gambar1}
                 alt="rectangle"
               ></img>
             </div>
             <div className="flex justify-center items-center transform xl:pb-0 md:col-span-1">
               <img
                 className="rounded-xl object-cover xl:h-[60vh] w-full"
-                src={gambar1}
+                src={gambar2}
                 alt="rectangle"
               ></img>
             </div>
-            <div className="flex justify-center transform xl:pb-0 xl:row-span-1 col-span-1 xl:h-[40vh] xl:col-span-1">
+            <div className="flex justify-center transform xl:pb-0 xl:row-span-1 col-span-1 xl:h-[60vh] xl:col-span-1">
               <img
                 className="rounded-xl object-cover w-full"
-                src={gambar2}
+                src={gambar3}
                 alt="rectangle"
               ></img>
             </div>
             <div className="flex justify-center items-center transform xl:pb-0 md:col-span-1">
               <img
                 className="rounded-xl object-cover xl:h-[60vh] w-full"
-                src={gambar1}
+                src={gambar4}
                 alt="rectangle"
               ></img>
             </div>
