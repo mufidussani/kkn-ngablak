@@ -22,7 +22,7 @@ export default function Umkm() {
         {/* <Umkm3 /> */}
         <Umkm4 />
         <Umkm1 />
-        <Umkm2 />
+        {/* <Umkm2 /> */}
         {/* <Tentang />
         <Terbaik /> */}
       </main>

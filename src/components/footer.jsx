@@ -83,7 +83,7 @@ const footer = () => {
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
-                  to="/tentang"
+                  to="/agrowisata"
                   className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
                 >
                   Agrowisata dan Pariwisata
@@ -92,7 +92,7 @@ const footer = () => {
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
-                  to="/teater"
+                  to="/umkm"
                   className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
                 >
                   UMKM
@@ -101,10 +101,19 @@ const footer = () => {
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
-                  to="/pasar-rakyat"
+                  to="/budaya"
                   className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
                 >
                   Budaya
+                </Link>
+                <Link
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
+                  to="/tps"
+                  className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
+                >
+                  TPS
                 </Link>
               </div>
             </div>

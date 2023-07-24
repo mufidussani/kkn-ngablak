@@ -14,7 +14,7 @@ export default function Budaya() {
       />
       <main className="overflow-hidden">
         <Budaya1 />
-        <Budaya2 />
+        {/* <Budaya2 /> */}
       </main>
     </>
   );

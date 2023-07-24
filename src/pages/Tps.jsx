@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 
-import Umkm1 from "../components/umkm/umkm1";
-import Umkm2 from "../components/umkm/umkm2";
-import Umkm3 from "../components/umkm/umkm3";
-import Umkm4 from "../components/umkm/umkm4";
-import Umkm5 from "../components/umkm/umkm5";
-import Umkm6 from "../components/umkm/umkm6";
+import Tps1 from "../components/tps/tps1";
+import Tps2 from "../components/tps/tps2";
+import Tps3 from "../components/tps/tps3";
+import Tps4 from "../components/tps/tps4";
+import Tps5 from "../components/tps/tps5";
 import { HtmlHead } from "../components/HtmlHead";
 
 export default function Tps() {
@@ -16,7 +15,13 @@ export default function Tps() {
         decription="[insert page description]"
         link="/umkm"
       />
-      <main className="overflow-hidden"></main>
+      <main className="overflow-hidden">
+        <Tps1 />
+        <Tps2 />
+        <Tps3 />
+        <Tps4 />
+        <Tps5 />
+      </main>
     </>
   );
 }

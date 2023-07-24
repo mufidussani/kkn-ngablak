@@ -53,7 +53,7 @@ const Umkm1 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-[#FFFDEC] pt-24 pb-12 xl:py-24 px-8 xl:px-24">
+    <div className="items-center bg-[#FFFDEC] pt-4 pb-12 px-8 xl:px-24">
       <div className="">
         <div
           className="relative items-center text-white text-sm"

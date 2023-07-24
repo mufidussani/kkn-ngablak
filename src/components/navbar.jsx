@@ -113,6 +113,25 @@ const Navbar = () => {
             Budaya
           </li>
         </NavLink>
+        <NavLink
+          exact
+          to="/tps"
+          className={({ isActive }) => (isActive ? "font-bold" : "font-normal")}
+          style={{
+            marginLeft: "1.5rem",
+            marginRight: "1.5rem",
+            textAlign: "center",
+          }}
+        >
+          <li
+            onClick={() => {
+              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+            }}
+            className="transition-all cursor-pointer py-5 text-center hover:px-2 hover:text-white hover:animate-fade hover:bg-[#545B77] hover:rounded-xl hover:bg-cover hover:bg-center hover:py-[10px]"
+          >
+            TPS
+          </li>
+        </NavLink>
         {/* <NavLink
           exact
           to="/festival-seni"
@@ -222,10 +241,22 @@ const Navbar = () => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                 setNavbar(false);
               }}
-              to="/pasar-rakyat"
+              to="/budaya"
               className="block px-2 py-4 text-2xl font-bold transition duration-300 hover:bg-green-500"
             >
               Budaya
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                setNavbar(false);
+              }}
+              to="/tps"
+              className="block px-2 py-4 text-2xl font-bold transition duration-300 hover:bg-green-500"
+            >
+              TPS
             </Link>
           </li>
           {/* <li>
