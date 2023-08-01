@@ -5,6 +5,7 @@ import gambar2 from "../../assets/home/makam_ki_joko.png";
 import gambar3 from "../../assets/home/posko_andong.png";
 import gambar4 from "../../assets/home/sunset.png";
 import gambar5 from "../../assets/home/trek_andong.png";
+import gambar6 from "../../assets/home/tps.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
@@ -94,6 +95,9 @@ const Terbaik = () => {
             </div>
             <div className="px-4">
               <img className="rounded-2xl" src={gambar5} alt="rectangle"></img>
+            </div>
+            <div className="px-4">
+              <img className="rounded-2xl" src={gambar6} alt="rectangle"></img>
             </div>
           </Slider>
         </div>

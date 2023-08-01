@@ -72,7 +72,7 @@ const Tps2 = () => {
                 <br />
               </div>
             </div>
-            <div className="text-justify font-bold mb-3 text-base xl:text-xl">
+            <div className="text-justify font-bold mb-3 text-base xl:text-2xl">
               Langganan Jasa Pengambilan Sampah Rumah Tangga
             </div>
           </div>

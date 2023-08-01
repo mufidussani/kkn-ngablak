@@ -72,7 +72,7 @@ const Tps4 = () => {
                 <br />
               </div> */}
             </div>
-            <div className="text-justify font-bold mb-3 text-base xl:text-xl">
+            <div className="text-justify font-bold mb-3 text-base xl:text-2xl">
               Pengelolaan Sampah
             </div>
           </div>
