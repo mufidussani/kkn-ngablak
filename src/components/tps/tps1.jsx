@@ -60,7 +60,7 @@ const Tps1 = () => {
     >
       <div className="">
         <div
-          className="relative items-center text-light-blue text-sm"
+          className="relative items-center text-light-blue"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
@@ -87,7 +87,7 @@ const Tps1 = () => {
                 alt="rectangle"
               ></img>
             </div>
-            <div className="col-span-1 hidden xl:inline-block -mt-32 text-xl text-justify bg-light-blue p-8 text-basic rounded-2xl">
+            <div className="col-span-1 hidden xl:inline-block -mt-32 text-sm md:text-xl text-justify bg-light-blue p-8 text-basic rounded-2xl">
               TPS 3R Giri Mulya adalah Kelompok Pemanfaat dan Penerima (KPP)
               Tempat Pengelolaan Sampah di bawah naungan Badan Usaha Milik Desa
               Girirejo (Bumdes). TPS 3R Giri Mulya memiliki peran penting dalam
@@ -95,7 +95,7 @@ const Tps1 = () => {
               dengan baik
             </div>
           </div>
-          <div className="xl:row-span-1 text-base mt-4 text-justify xl:hidden p-4 rounded-xl text-basic bg-light-blue">
+          <div className="xl:row-span-1 text-sm mt-4 text-justify xl:hidden p-4 rounded-xl text-basic bg-light-blue">
             TPS 3R Giri Mulya adalah Kelompok Pemanfaat dan Penerima (KPP)
             Tempat Pengelolaan Sampah di bawah naungan Badan Usaha Milik Desa
             Girirejo (Bumdes). TPS 3R Giri Mulya memiliki peran penting dalam

@@ -75,7 +75,7 @@ const Tps5 = () => {
             {/* <div className="text-justify font-bold mb-3 text-base xl:text-xl">
               Pengelolaan Sampah
             </div> */}
-            <p className="text-justify mb-3 text-base xl:text-2xl xl:mt-3 bg-light-blue text-basic p-2 rounded-xl xl:p-4 w-auto">
+            <p className="text-justify mb-3 text-sm md:text-base xl:text-2xl xl:mt-3 bg-light-blue text-basic p-2 rounded-xl xl:p-4 w-auto">
               1) Terjaganya kebersihan lingkungan setiap dusun
               <br />
               2) Biaya langganan yang murah, hanya Rp5000 setiap bulan

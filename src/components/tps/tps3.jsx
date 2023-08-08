@@ -113,7 +113,7 @@ const Tps3 = () => {
               Girirejo.
             </div>
           </div>
-          <div className="xl:row-span-1 text-base mt-4 text-justify xl:hidden p-4 rounded-xl text-basic bg-light-blue">
+          <div className="xl:row-span-1 text-sm mt-4 text-justify xl:hidden p-4 rounded-xl text-basic bg-light-blue">
             TPS 3R Giri Mulya mengolah sampah yang terkumpul di TPS menjadi
             produk layak pakai seperti Pupuk Organik Cair dan Padat. Produk
             tersebut direncanakan untuk dapat dikomersial/diperjual-belikan

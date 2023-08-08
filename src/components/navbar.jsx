@@ -198,7 +198,7 @@ const Navbar = () => {
       >
         {/* <div className={`${navbar ? "absolute" : "hidden"}`}> */}
 
-        <ul className="z-50 mx-0 mt-16 flex h-auto pb-10 w-full flex-col bg-dark-blue sm:fixed sm:items-center sm:justify-evenly sm:text-3xl xl:hidden mobile:fixed mobile:items-center mobile:gap-10 mobile:text-3xl">
+        <ul className="z-50 mx-0 mt-16 flex h-auto pb-6 w-full flex-col bg-dark-blue sm:fixed sm:items-center sm:justify-evenly sm:text-3xl xl:hidden mobile:fixed mobile:items-center mobile:gap-4 mobile:text-3xl">
           <li className="active">
             <Link
               to=""

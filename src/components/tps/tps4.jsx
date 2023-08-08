@@ -136,7 +136,7 @@ const Tps4 = () => {
               Giri Mulya.
             </div>
           </div>
-          <div className="xl:row-span-1 text-base mt-4 text-justify xl:hidden p-4 rounded-xl text-basic bg-dark-blue">
+          <div className="xl:row-span-1 text-sm mt-4 text-justify xl:hidden p-4 rounded-xl text-basic bg-dark-blue">
             TPS 3R Giri Mulya bekerja sama dengan Pengelola Tempat Pembuangan
             Akhir (TPA) mengelola sampah yang terkumpul di TPS untuk disalurkan
             pada TPA sebagai akhir dari alur perpindahan sampah hasil dari

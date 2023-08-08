@@ -90,7 +90,7 @@ const footer = () => {
               </span>
             </div>
             {/* quick link */}
-            <div className="flex flex-col text-base md:text-lg text-white xl:gap-2 xl:text-xl gap-2 my-3">
+            <div className="flex flex-col text-base md:text-lg text-white xl:gap-2 xl:text-xl gap-2 xl:my-6 my-3">
               <div className="flex flex-col gap-2">
                 <Link
                   onClick={() => {

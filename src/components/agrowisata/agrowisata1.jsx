@@ -112,7 +112,7 @@ const Agrowisata1 = () => {
           </div>
         </div>
         <div className="text-justify flex-col flex xl:flex-row xl:mt-10 items-center justify-center xl:px-10">
-          <div className="text-[#545B77] sm:text-base xl:text-xl xl:w-2/3 xl:mr-10 mb-4 xl:mb-0">
+          <div className="text-[#545B77] text-sm xl:text-xl xl:w-2/3 xl:mr-10 mb-4 xl:mb-0">
             Destinasi Gunung Andong memiliki tiga jalur pendakian.
             <br />
             Setiap jalur pendakian memiliki karakteristik yang berbeda. Dalam

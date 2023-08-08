@@ -112,7 +112,7 @@ const Tps2 = () => {
               hari Senin dan Kamis di setiap minggunya.
             </div>
           </div>
-          <div className="xl:row-span-1 text-base mt-4 text-justify xl:hidden p-4 rounded-xl text-basic bg-dark-blue">
+          <div className="xl:row-span-1 text-sm mt-4 text-justify xl:hidden p-4 rounded-xl text-basic bg-dark-blue">
             TPS 3R Giri Mulya menyediakan jasa pengambilan sampah hasil kegiatan
             rumah tangga untuk warga Desa Girirejo dengan jadwal yang teratur di
             setiap minggunya. Pengambilan sampah dilakukan setiap hari Senin dan
