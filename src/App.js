@@ -6,6 +6,7 @@ import Navbar from "./components/navbar";
 
 import Home from "./pages/Home";
 import Agrowisata from "./pages/Agrowisata";
+import MapWisata from "./pages/MapWisata";
 import Umkm from "./pages/Umkm";
 import Budaya from "./pages/Budaya";
 
@@ -36,6 +37,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/agrowisata" element={<Agrowisata />} />
+        <Route path="/agrowisata/map" element={<MapWisata />} />
         <Route path="/umkm" element={<Umkm />} />
         <Route path="/agrowisata/gogik" element={<TanamanGogik />} />
         <Route path="/agrowisata/gogik/kaliandra" element={<Kaliandra />} />

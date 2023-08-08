@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import Slider from "react-slick";
 // import "./tentang.css";
 
-const Agrowisata3 = () => {
+const Agrowisata2 = () => {
   var settings = {
     dots: false,
     // arrows: false,
@@ -60,7 +60,7 @@ const Agrowisata3 = () => {
     >
       <div className="">
         <div
-          className="relative items-center text-white text-sm"
+          className="relative items-center text-sm"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
@@ -71,12 +71,12 @@ const Agrowisata3 = () => {
                 <br />
                 Via Sawit
               </div>
-              <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 xl:hidden">
+              <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 text-basic mb-3 xl:hidden">
                 <p className="text-light-blue font-bold">
                   Tiket Pendakian: 25.000
                 </p>
               </div>
-              <p className="text-justify xl:hidden">
+              <p className="text-justify xl:hidden text-basic">
                 Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
                 pemula karena jalur ini telah disusun sedemikian rupa untuk
                 memudahkan para pendaki untuk menikmati alam selama perjalanan
@@ -88,7 +88,7 @@ const Agrowisata3 = () => {
             </div>
           </div>
           <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-3 pt-4">
-            <div className="xl:row-span-1 hidden xl:block text-xl text-justify">
+            <div className="xl:row-span-1 hidden xl:block text-xl text-justify text-basic">
               <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 hidden xl:flex">
                 <p className="text-light-blue font-bold">
                   Tiket Pendakian: 25.000
@@ -129,4 +129,4 @@ const Agrowisata3 = () => {
   );
 };
 
-export default Agrowisata3;
+export default Agrowisata2;

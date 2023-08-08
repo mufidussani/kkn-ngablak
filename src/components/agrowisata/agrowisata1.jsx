@@ -95,19 +95,19 @@ const Agrowisata1 = () => {
           </div>
           <div className="container flex-col xl:flex-row flex items-center justify-center">
             <div
-              className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4"
+              className="transform duration-500 ease-in-out hover:scale-[110%] pb-4 xl:pb-0 px-4"
               onClick={handlePendem}
             >
               <img className="" src={gambar2} alt="pendem"></img>
             </div>
             <div
-              className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4"
+              className="transform duration-500 ease-in-out hover:scale-[110%] pb-4 xl:pb-0 px-4"
               onClick={handleGogik}
             >
               <img className="" src={gambar1} alt="gogik"></img>
             </div>
             <div
-              className="transform hover:transition-all hover:scale-[110%] pb-4 xl:pb-0 px-4"
+              className="transform duration-500 ease-in-out hover:scale-[110%] pb-4 xl:pb-0 px-4"
               onClick={handleSawit}
             >
               <img className="" src={gambar3} alt="sawit"></img>
