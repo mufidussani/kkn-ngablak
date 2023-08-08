@@ -17,11 +17,11 @@ const Agrowisata5 = () => {
               onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
               }}
-              className="inline-block items-center align-middle justify-center mt-4 rounded bg-[#FFFDEC] py-2 px-6 font-Montserrat text-lg md text-dark-blue transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)] mobile:text-sm mb-4"
+              className="inline-block items-center align-middle justify-center mt-4 rounded bg-[#FFFDEC] py-2 px-6 font-Montserrat text-2xl md text-dark-blue transition-all duration-300 ease-out hover:scale-[1] hover:px-[1.33rem] hover:font-bold hover:shadow-[5px_5px_0_rgb(128,128,128)] mobile:text-base mb-4"
             >
               Jelajahi lebih lanjut
               <br />
-              Peta Wisata Desa Girirejo
+              Peta Desa Girirejo!
             </button>
           </Link>
         </div>

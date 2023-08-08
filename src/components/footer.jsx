@@ -19,6 +19,8 @@ import {
   faMailchimp,
 } from "@fortawesome/free-brands-svg-icons";
 import Logo from "../assets/logo-saujana-small.png";
+import Logo_ugm from "../assets/Lambang UGM-putih.png";
+import Logo_kkn from "../assets/Logo KKN UGM.png";
 import logo from "../assets/logo-saujana-big.png";
 // import festival_footer from "../assets/footer/festival-gm-footer.svg";
 // import ornament_footer from "../assets/footer/ornament-footer.svg";
@@ -32,18 +34,38 @@ const footer = () => {
         <div className="container mx-auto px-2 text-left sm:w-auto xl:w-full h-full">
           <div className="mx-4 flex justify-evenly gap-y-2 xl:flex-row xl:items-start flex-col gap-8 mobile:text-2xl">
             <div className="flex flex-col items-center self-center xl:items-start xl:self-auto">
-              <div className="flex items-center sm:px-[15rem] xl:px-0 xl:gap-10 xl:flex-row mb-4 xl:py-12">
+              <div className="flex items-center sm:px-[15rem] xl:px-0 xl:gap-2 xl:flex-row mb-4 xl:pt-4">
+                <img
+                  src={Logo_ugm}
+                  alt=""
+                  className="transition-all h-[100px] ml-3 xl:hidden xl:h-28"
+                />
+                <img
+                  src={Logo_ugm}
+                  alt=""
+                  className=" hidden transition-all ml-3 xl:inline-flex xl:h-28"
+                />
+                <img
+                  src={Logo_kkn}
+                  alt=""
+                  className=" hidden transition-all ml-3 xl:inline-flex xl:h-28"
+                />
+                <img
+                  src={Logo_kkn}
+                  alt=""
+                  className="transition-all h-[100px] ml-3 xl:hidden xl:h-28 xl:scale-[1.4]"
+                />
                 <img
                   src={Logo}
                   alt=""
-                  className="transition-all xl:hidden xl:h-28 xl:scale-[1.4]"
+                  className="transition-all xl:hidden ml-3 xl:h-28"
                 />
                 <img
                   src={logo}
                   alt=""
-                  className=" hidden transition-all xl:inline-flex xl:h-28 xl:scale-[1.4]"
+                  className=" hidden transition-all xl:inline-flex xl:h-28"
                 />
-                <span className="hidden xl:block">
+                <span className="hidden">
                   <p className="">
                     <span className="font-bold content-left text-lg xl:text-xl text-white">
                       DESA GIRIREJO
@@ -58,11 +80,11 @@ const footer = () => {
                   Kecamatan Ngablak, Kabupaten Magelang, Jawa Tengah, 56194
                 </p> */}
               </div>
-              <span className="xl:hidden">
-                <p className="font-bold text-center text-lg text-white lg:mt-6">
+              <span className="">
+                <p className="font-bold text-lg text-center xl:text-left text-white lg:mt-6 xl:mt-0">
                   DESA GIRIREJO
                 </p>
-                <p className="text-center text-base text-white lg:mt-6 mb-2">
+                <p className="text-center text-base text-white lg:mt-6 xl:mt-0 mb-2">
                   Kecamatan Ngablak, Kabupaten Magelang, Jawa Tengah, 56194
                 </p>
               </span>
@@ -169,7 +191,7 @@ const footer = () => {
           </div>
         </div>
       </div>
-      <p className="text-xs text-white bg-light-blue mt-3 py-2">
+      <p className="text-xs text-white bg-light-blue py-2 mt-3 xl:mt-0">
         Developed by Tim KKN-PPM UGM - Saujana Ngablak 2023
       </p>
     </footer>

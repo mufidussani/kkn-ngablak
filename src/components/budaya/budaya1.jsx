@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import gambar1 from "../../assets/agrowisata/gogik_a.jpg";
-import gambar2 from "../../assets/budaya/makam_mangli.jpg";
+import gambar2 from "../../assets/budaya/andong_jinawi.png";
 import gambar3 from "../../assets/agrowisata/gogik_c.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
@@ -57,7 +57,7 @@ const Budaya1 = () => {
     <div className="items-center bg-basic pt-24 pb-12 px-8 xl:px-24">
       <div className="">
         <div
-          className="relative text-light-blue items-center text-sm"
+          className="relative text-light-blue items-center text-base"
           id="gogik"
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -65,10 +65,10 @@ const Budaya1 = () => {
           <div className="pointer-events-none">
             <div className="mt-1 sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="font-black text-light-blue font-Satisfy text-2xl sm:text-3xl text-center xl:text-4xl mb-3">
-                Wisata Religi
+                Wisata Budaya
               </div>
               <div className="font-bold text-xl text-left mb-2 xl:hidden">
-                Makam Mbah Mangli
+                Andong Jinawi
               </div>
               {/* <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 xl:hidden">
                 <p className="text-light-blue font-bold">
@@ -76,12 +76,19 @@ const Budaya1 = () => {
                 </p>
               </div> */}
               <p className="text-justify xl:hidden">
-                Lereng Gunung Andong tepatnya di Dusun Mangli, Desa Girirejo
-                menjadi tempat peristirahatan terakhir bagi KH. Hasan Asy’ari
-                alias Mbah Mangli yang merupakan tokoh agama yang sangat
-                dihormati di Desa Girirejo. Kompleks makam Mbah Mangli menjadi
-                destinasi wisata religius bagi pengikutnya sebagai pengormatan
-                bagi Kiai Mbah Mangli atas jasanya dalam berdakwah.
+                Andong Jinawi merupakan kelompok kesenian yang berbasis di dusun
+                Mantran Wetan Desa Girirejo yang didirikan pada 1983 oleh
+                swadaya masyarakat dusun Mantran Wetan. Saat ini sanggar Andong
+                Jinawi memiliki kurang lebih 80 anggota yang diketuai oleh Bapak
+                Padi dan aktif mengikuti berbagai acara seperti festival Tahunan
+                5 Gunung.
+                <br />
+                Sanggar Andong Jinawi memiliki tiga divisi di dalammnya yaitu
+                divisi Tari Jaran Kepang Papat yang memiliki 25 anggota tetap
+                dan keanggotaan ini diwariskan secara turun-temurun selama empat
+                generasi. Kemudian divisi Beksa Turangga Muda yang di isi oleh
+                anak muda dan Sekar Ngeksiganda yang merupakan sendra tari (seni
+                drama tari).
               </p>
             </div>
           </div>
@@ -93,14 +100,20 @@ const Budaya1 = () => {
                 </p>
               </div> */}
               <div className="font-bold text-xl xl:text-3xl text-left mb-2">
-                Makam Mbah Mangli
+                Andong Jinawi
               </div>
-              Lereng Gunung Andong tepatnya di Dusun Mangli, Desa Girirejo
-              menjadi tempat peristirahatan terakhir bagi KH. Hasan Asy’ari
-              alias Mbah Mangli yang merupakan tokoh agama yang sangat dihormati
-              di Desa Girirejo. Kompleks makam Mbah Mangli menjadi destinasi
-              wisata religius bagi pengikutnya sebagai pengormatan bagi Kiai
-              Mbah Mangli atas jasanya dalam berdakwah.
+              Andong Jinawi merupakan kelompok kesenian yang berbasis di dusun
+              Mantran Wetan Desa Girirejo yang didirikan pada 1983 oleh swadaya
+              masyarakat dusun Mantran Wetan. Saat ini sanggar Andong Jinawi
+              memiliki kurang lebih 80 anggota yang diketuai oleh Bapak Padi dan
+              aktif mengikuti berbagai acara seperti festival Tahunan 5 Gunung.
+              <br />
+              Sanggar Andong Jinawi memiliki tiga divisi di dalammnya yaitu
+              divisi Tari Jaran Kepang Papat yang memiliki 25 anggota tetap dan
+              keanggotaan ini diwariskan secara turun-temurun selama empat
+              generasi. Kemudian divisi Beksa Turangga Muda yang di isi oleh
+              anak muda dan Sekar Ngeksiganda yang merupakan sendra tari (seni
+              drama tari).
               {/* <div className="flex justify-center">
                 <Link to="/agrowisata/gogik">
                   <button

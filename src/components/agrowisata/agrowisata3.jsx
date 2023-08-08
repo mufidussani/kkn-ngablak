@@ -130,18 +130,36 @@ const Agrowisata3 = () => {
                 <p className="text-basic font-bold">Tiket Pendakian: 25.000</p>
               </div>
               <p className="text-justify xl:hidden">
-                Alam yang masih asri menjadi gambaran rute pendakian via pendem.
-                Bagi anda yang mencari suasana alam yang asri dan menyukai
-                tantangan maka jalur pendakian via Pendem menjadi pilihan
-                terbaik bagi anda. Rute pendakian via Pendem juga menjadi tempat
-                bagi para atlet trail runner
+                Pendakian jalur Pendem merupakan jalur yang masih menjaga
+                keasriannya dan jalurnya masih banyak pohon rindang. Rute
+                pendakian Pendem ini juga biasa digunakan sebagai rute olahraga
+                para atlet trail runner.
+                <br />
+                Beberapa layanan atau aktivitas yang bisa dilakukan di jalur
+                pendem:
+                <br />
+                <ul class="list-disc list-inside">
+                  <li>Hiking</li> <li>Camping</li> <li>Traveling</li>
+                  <li> Camping Ground</li> <li>Guide Porter</li>
+                  <li>Rental Outdoor</li>
+                </ul>
+                Informasi lengkap mengenai pendakian jalur Sawit bisa dilihat di
+                akun Instagram resmi @andongviapendem
+                <br />
+                Fasilitas:
+                <br />
+                <ul class="list-disc list-inside">
+                  <li>Warung makan warga lokal</li>{" "}
+                  <li>Pondokan untuk istirahat para pendaki</li>{" "}
+                  <li>Parkir luas</li> <li>Toilet</li>
+                </ul>
               </p>
             </div>
           </div>
           <div className="container grid grid-cols-2 xl:grid-cols-2 mt-3 gap-3 pt-4">
             <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
               <img
-                className="rounded-xl xl:h-[40vh] object-cover w-full"
+                className="rounded-xl xl:h-[80vh] object-cover w-full"
                 src={gambar1}
                 alt="rectangle"
               ></img>
@@ -151,11 +169,34 @@ const Agrowisata3 = () => {
                 <p className="text-basic font-bold">Tiket Pendakian: 25.000</p>
               </div>
               <p>
-                Alam yang masih asri menjadi gambaran rute pendakian via pendem.
+                {/* Alam yang masih asri menjadi gambaran rute pendakian via pendem.
                 Bagi anda yang mencari suasana alam yang asri dan menyukai
                 tantangan maka jalur pendakian via Pendem menjadi pilihan
                 terbaik bagi anda. Rute pendakian via Pendem juga menjadi tempat
-                bagi para atlet trail runner.
+                bagi para atlet trail runner. */}
+                Pendakian jalur Pendem merupakan jalur yang masih menjaga
+                keasriannya dan jalurnya masih banyak pohon rindang. Rute
+                pendakian Pendem ini juga biasa digunakan sebagai rute olahraga
+                para atlet trail runner.
+                <br />
+                Beberapa layanan atau aktivitas yang bisa dilakukan di jalur
+                pendem:
+                <br />
+                <ul class="list-disc list-inside">
+                  <li>Hiking</li> <li>Camping</li> <li>Traveling</li>
+                  <li> Camping Ground</li> <li>Guide Porter</li>
+                  <li>Rental Outdoor</li>
+                </ul>
+                Informasi lengkap mengenai pendakian jalur Sawit bisa dilihat di
+                akun Instagram resmi @andongviapendem
+                <br />
+                Fasilitas:
+                <br />
+                <ul class="list-disc list-inside">
+                  <li>Warung makan warga lokal</li>{" "}
+                  <li>Pondokan untuk istirahat para pendaki</li>{" "}
+                  <li>Parkir luas</li> <li>Toilet</li>
+                </ul>
               </p>
             </div>
             <div className="flex justify-center items-center transform xl:pb-0 md:col-span-1">

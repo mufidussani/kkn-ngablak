@@ -6,9 +6,6 @@ import gambar3 from "../../assets/agrowisata/via-sawit.png";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Agrowisata2 from "../../components/agrowisata/agrowisata2";
-import Agrowisata3 from "../../components/agrowisata/agrowisata3";
-import Agrowisata4 from "../../components/agrowisata/agrowisata4";
 // import "./tentang.css";
 
 const Agrowisata1 = () => {
@@ -89,11 +86,11 @@ const Agrowisata1 = () => {
           <div className="font-black pointer-events-none">
             <div className="mt-1 justify-center sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
               <div className="text-[#545B77] font-Satisfy text-2xl sm:text-3xl xl:text-4xl font-bold text-center mb-6">
-                Rute Pendakian Gunung Andong
+                Wisata Pendakian Gunung Andong
               </div>
             </div>
           </div>
-          <div className="container flex-col xl:flex-row flex items-center justify-center">
+          <div className="container flex-col xl:flex-row flex items-center justify-center cursor-pointer">
             <div
               className="transform duration-500 ease-in-out hover:scale-[110%] pb-4 xl:pb-0 px-4"
               onClick={handlePendem}

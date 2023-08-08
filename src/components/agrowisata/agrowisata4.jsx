@@ -75,11 +75,23 @@ const Agrowisata4 = () => {
                 </p>
               </div>
               <p className="text-justify xl:hidden">
-                Rute ini menjadi tempat bagi anda yang menyukai tantangan. Rute
-                ini memiliki konsep trek sengaja dibuat sealami mungkin. trek
-                ini diperuntukan bagi pendaki yang ingin mencoba pengalaman
-                mendaki tanpa mengikuti jalur yang telah dibuka sehingga para
-                pendaki dapat meningkatkan kemampuan mendakinya.
+                Pendakian Jalur Gogik merupakan jalur yang paling baru dari dua
+                jalur yang lainnya. Jalur yang masih baru ini membuat jalur Via
+                Gogik memiliki keunggulan karena masih asri. Jalur Via Gogik ini
+                berada di Dusun Gogik yang memiliki basecamp di tengah-tengah
+                pemukiman warga.
+                <br />
+                Informasi lengkap mengenai pendakian jalur Gogik bisa dilihat di
+                akun Instagram resmi @explore_andong
+                <br />
+                Fasilitas:
+                <br />
+                <ul class="list-disc list-inside">
+                  <li>Tempat istirahat</li>
+                  <li>Dekat dengan warung/toko warga lokal</li>
+                  <li>Mushola</li>
+                  <li>Kamar mandi yang berada di mushola</li>
+                </ul>
               </p>
               <div className="items-start justify-start flex justify-items-start xl:hidden">
                 <Link to="/agrowisata/gogik">
@@ -102,7 +114,7 @@ const Agrowisata4 = () => {
                   Tiket Pendakian: 25.000
                 </p>
               </div>
-              Rute ini menjadi tempat bagi anda yang menyukai tantangan. Rute
+              {/* Rute ini menjadi tempat bagi anda yang menyukai tantangan. Rute
               ini memiliki konsep trek sengaja dibuat sealami mungkin. trek ini
               diperuntukan bagi pendaki yang ingin mencoba pengalaman mendaki
               tanpa mengikuti jalur yang telah dibuka sehingga para pendaki
@@ -112,7 +124,24 @@ const Agrowisata4 = () => {
               untuk mengetahui jenis dan informasi tanaman yang ada di sepanjang
               jalur pendakian. Untuk dapat mengetahui berbagai jenis tanaman
               yang ada, kunjungi melalui tombol berikut.
+              <br /> */}
+              Pendakian Jalur Gogik merupakan jalur yang paling baru dari dua
+              jalur yang lainnya. Jalur yang masih baru ini membuat jalur Via
+              Gogik memiliki keunggulan karena masih asri. Jalur Via Gogik ini
+              berada di Dusun Gogik yang memiliki basecamp di tengah-tengah
+              pemukiman warga.
               <br />
+              Informasi lengkap mengenai pendakian jalur Gogik bisa dilihat di
+              akun Instagram resmi @explore_andong
+              <br />
+              Fasilitas:
+              <br />
+              <ul class="list-disc list-inside">
+                <li>Tempat istirahat</li>
+                <li>Dekat dengan warung/toko warga lokal</li>
+                <li>Mushola</li>
+                <li>Kamar mandi yang berada di mushola</li>
+              </ul>
               <div className="flex justify-center">
                 <Link to="/agrowisata/gogik">
                   <button

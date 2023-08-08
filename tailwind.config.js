@@ -11,6 +11,7 @@ module.exports = {
       backgroundImage: {
         pattern: "url('../src/assets/navbar-hover.svg')",
         "homepage-cover": "url('../src/assets/home/header_homepage.jpg')",
+        "pemandangan-1": "url('../src/assets/pemandangan1.jpg')",
       },
       fontFamily: {
         Satisfy: ["Satisfy"],

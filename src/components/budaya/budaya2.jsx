@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import gambar1 from "../../assets/agrowisata/gogik_a.jpg";
-import gambar2 from "../../assets/budaya/makam_mangli.jpg";
+import gambar2 from "../../assets/budaya/wahyu_budoyo.png";
 import gambar3 from "../../assets/agrowisata/gogik_c.jpg";
 import map_muncak from "../../assets/agrowisata/map-muncak.png";
 import AOS from "aos";
@@ -54,21 +54,21 @@ const Budaya2 = () => {
   const isDesktop = width > 640;
 
   return (
-    <div className="items-center bg-basic pt-24 pb-12 px-8 xl:px-24">
+    <div className="items-center bg-light-blue pt-8 pb-12 px-8 xl:px-24">
       <div className="">
         <div
-          className="relative text-light-blue items-center text-sm"
+          className="relative text-basic items-center text-base"
           id="gogik"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
           <div className="pointer-events-none">
             <div className="mt-1 sm:gap-1.5 md:gap-1 xl:gap-1 mobile:gap-1.5">
-              <div className="font-black text-light-blue font-Satisfy text-2xl sm:text-3xl text-center xl:text-4xl mb-3">
-                Wisata Religi
-              </div>
+              {/* <div className="font-black text-light-blue font-Satisfy text-2xl sm:text-3xl text-center xl:text-4xl mb-3">
+                Wisata Budaya
+              </div> */}
               <div className="font-bold text-xl text-left mb-2 xl:hidden">
-                Makam Mbah Mangli
+                Wahyu Budoyo Muda
               </div>
               {/* <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 xl:hidden">
                 <p className="text-light-blue font-bold">
@@ -76,16 +76,25 @@ const Budaya2 = () => {
                 </p>
               </div> */}
               <p className="text-justify xl:hidden">
-                Lereng Gunung Andong tepatnya di Dusun Mangli, Desa Girirejo
-                menjadi tempat peristirahatan terakhir bagi KH. Hasan Asy’ari
-                alias Mbah Mangli yang merupakan tokoh agama yang sangat
-                dihormati di Desa Girirejo. Kompleks makam Mbah Mangli menjadi
-                destinasi wisata religius bagi pengikutnya sebagai pengormatan
-                bagi Kiai Mbah Mangli atas jasanya dalam berdakwah.
+                Paguyuban seni tari Wahyu Budoyo Mudo merupakan kelompok
+                kesenian yang berbasis di Dusun Sawit, Desa Girirejo yang
+                didirikan pada tahun 1971 dan masih aktif hingga sekarang.
+                Kelompok ini diketuai oleh Priyo Suryono. Wahyu Budoyo Mudo
+                berfokus pada seni tari atau beksan, baik itu beksan klasik
+                ataupun beksan kontemporer. Beksan klasik mengikuti gagrak
+                Yogyakarta sementara untuk kontemporer atau kreasi menggunakan
+                campuran Jawa-Bali.
               </p>
             </div>
           </div>
           <div className="grid grid-cols-2 xl:grid-cols-2 mt-3 gap-3 xl:gap-6 pt-4">
+            <div className="flex justify-center transform col-span-2 xl:col-span-1 xl:pb-0 items-center ">
+              <img
+                className="rounded-xl object-cover xl:h-[50vh] w-full"
+                src={gambar2}
+                alt="rectangle"
+              ></img>
+            </div>
             <div className="xl:row-span-1 xl:col-span-1 hidden xl:block text-xl text-justify">
               {/* <div className="rounded-xl bg-[#FFFDEC] text-justify p-3 mb-3 hidden xl:flex">
                 <p className="text-light-blue font-bold">
@@ -93,14 +102,15 @@ const Budaya2 = () => {
                 </p>
               </div> */}
               <div className="font-bold text-xl xl:text-3xl text-left mb-2">
-                Makam Mbah Mangli
+                Wahyu Budoyo Muda
               </div>
-              Lereng Gunung Andong tepatnya di Dusun Mangli, Desa Girirejo
-              menjadi tempat peristirahatan terakhir bagi KH. Hasan Asy’ari
-              alias Mbah Mangli yang merupakan tokoh agama yang sangat dihormati
-              di Desa Girirejo. Kompleks makam Mbah Mangli menjadi destinasi
-              wisata religius bagi pengikutnya sebagai pengormatan bagi Kiai
-              Mbah Mangli atas jasanya dalam berdakwah.
+              Paguyuban seni tari Wahyu Budoyo Mudo merupakan kelompok kesenian
+              yang berbasis di Dusun Sawit, Desa Girirejo yang didirikan pada
+              tahun 1971 dan masih aktif hingga sekarang. Kelompok ini diketuai
+              oleh Priyo Suryono. Wahyu Budoyo Mudo berfokus pada seni tari atau
+              beksan, baik itu beksan klasik ataupun beksan kontemporer. Beksan
+              klasik mengikuti gagrak Yogyakarta sementara untuk kontemporer
+              atau kreasi menggunakan campuran Jawa-Bali.
               {/* <div className="flex justify-center">
                 <Link to="/agrowisata/gogik">
                   <button
@@ -114,13 +124,7 @@ const Budaya2 = () => {
                 </Link>
               </div> */}
             </div>
-            <div className="flex justify-center transform col-span-2 xl:col-span-1 xl:pb-0 items-center ">
-              <img
-                className="rounded-xl object-cover xl:h-[50vh] w-full"
-                src={gambar2}
-                alt="rectangle"
-              ></img>
-            </div>
+
             {/* <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:col-span-1">
               <img
                 className="rounded-xl object-cover xl:h-[60vh] w-full"

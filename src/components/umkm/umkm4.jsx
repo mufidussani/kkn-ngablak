@@ -89,7 +89,7 @@ const Umkm4 = () => {
                 </div>
               </div>
             </div>
-            <div className="text-dark-blue text-justify text-lg">
+            <div className="text-dark-blue text-justify text-base xl:text-lg">
               Desa Girirejo menjadi sumber dari bibit bibit tanaman berkualitas,
               bagi anda yang memiliki kegiatan bertani dan memiliki ketertarikan
               pada tanaman bisa langsung datang ke Desa Girirejo untuk
@@ -97,7 +97,7 @@ const Umkm4 = () => {
               dan Dusun Dempel.
             </div>
           </div>
-          <div className="xl:mt-12 col-span-1">
+          <div className="xl:mt-12 col-span-1 px-4 xl:px-0">
             <div className="pb-8">
               <div className="xl:h-[40vh]">
                 <img

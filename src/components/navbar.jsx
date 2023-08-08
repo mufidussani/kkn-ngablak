@@ -37,8 +37,8 @@ const Navbar = () => {
       </div>
       <ul className="mr-20 flex h-full items-center justify-center gap-1 text-xl sm:hidden lg:ml-auto xl:flex mobile:hidden">
         <NavLink
-          end
-          to=""
+          exact
+          to="/"
           className={({ isActive }) => (isActive ? "font-bold" : "font-normal")}
           style={{
             marginLeft: "1.5rem",

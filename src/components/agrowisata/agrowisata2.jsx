@@ -77,13 +77,24 @@ const Agrowisata2 = () => {
                 </p>
               </div>
               <p className="text-justify xl:hidden text-basic">
-                Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
-                pemula karena jalur ini telah disusun sedemikian rupa untuk
-                memudahkan para pendaki untuk menikmati alam selama perjalanan
-                untuk mencapai puncak Gunung Andong. Anda tidak perlu khawatir
-                kelelahan karena terdapat beberapa pos yang menyediakan tempat
-                beristirahat, toilet bahkan beberapa warung untuk mengisi
-                energi.
+                Jalur sawit merupakan jalur pendakian yang ramai karena jalurnya
+                yang ramah bagi pendaki. Jalur Sawit ini memiliki tiga pos yang
+                setiap posnya terdapat tempat istirahat dan juga warga lokal
+                yang berjualan makanan. Hal ini lah yang membuat pendakian via
+                sawit menjadi favorit bagi para pendaki.
+                <br />
+                Informasi lengkap mengenai pendakian jalur Sawit bisa dilihat di
+                akun Instagram resmi @infoandong
+                <br />
+                Fasilitas:
+                <br />
+                <ul class="list-disc list-inside">
+                  <li>Basecamp sebagai tempat istirahat</li>
+                  <li>Warung makan warga lokal</li>
+                  <li>Masjid</li> <li>Toilet dan kamar mandi</li>
+                  <li>Warung makan/toko kelontong warga lokal</li>
+                  <li>Toko cendera mata</li>
+                </ul>
               </p>
             </div>
           </div>
@@ -94,14 +105,32 @@ const Agrowisata2 = () => {
                   Tiket Pendakian: 25.000
                 </p>
               </div>
-              Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
+              {/* Rute pendakian via Sawit sangat cocok bagi anda pendaki gunung
               pemula karena jalur ini telah disusun sedemikian rupa untuk
               memudahkan para pendaki untuk menikmati alam selama perjalanan
               untuk mencapai puncak Gunung Andong. Anda tidak perlu khawatir
               kelelahan karena terdapat beberapa pos yang menyediakan tempat
-              beristirahat, toilet bahkan beberapa warung untuk mengisi energi.
+              beristirahat, toilet bahkan beberapa warung untuk mengisi energi. */}
+              Jalur sawit merupakan jalur pendakian yang ramai karena jalurnya
+              yang ramah bagi pendaki. Jalur Sawit ini memiliki tiga pos yang
+              setiap posnya terdapat tempat istirahat dan juga warga lokal yang
+              berjualan makanan. Hal ini lah yang membuat pendakian via sawit
+              menjadi favorit bagi para pendaki.
+              <br />
+              Informasi lengkap mengenai pendakian jalur Sawit bisa dilihat di
+              akun Instagram resmi @infoandong
+              <br />
+              Fasilitas:
+              <br />
+              <ul class="list-disc list-inside">
+                <li>Basecamp sebagai tempat istirahat</li>
+                <li>Warung makan warga lokal</li>
+                <li>Masjid</li> <li>Toilet dan kamar mandi</li>
+                <li>Warung makan/toko kelontong warga lokal</li>
+                <li>Toko cendera mata</li>
+              </ul>
             </div>
-            <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:h-[40vh] xl:col-span-1">
+            <div className="xl:row-span-1 flex justify-center transform xl:pb-0 col-span-2 xl:h-[70vh] xl:col-span-1">
               <img
                 className="rounded-xl object-cover w-full"
                 src={gambar1}

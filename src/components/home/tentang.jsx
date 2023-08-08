@@ -43,7 +43,7 @@ const Tentang = () => {
             Desa Girirejo menunggu petualangan kalian selanjutnya!
           </div>
 
-          <Link to="/tentang">
+          {/* <Link to="/tentang">
             <button
               onClick={() => {
                 window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -52,7 +52,7 @@ const Tentang = () => {
             >
               Selengkapnya
             </button>
-          </Link>
+          </Link> */}
         </div>
 
         <div
