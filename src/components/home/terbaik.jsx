@@ -77,7 +77,7 @@ const Terbaik = () => {
               </div>
             </div>
           </div>
-          <div className="text-[#545B77] sm:text-base xl:text-xl text-center mb-10 xl:mb-4">
+          <div className="text-[#545B77] xl:text-xl text-center mb-10 xl:mb-4 sm:text-base">
             Telusuri lebih lanjut tentang apa yang kami tawarkan.
           </div>
           <Slider {...settings} className="cursor-pointer">

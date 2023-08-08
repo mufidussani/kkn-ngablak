@@ -57,7 +57,7 @@ const Agrowisata4 = () => {
     <div className="items-center bg-[#545B77] py-10 xl:pt-12 xl:pb-12 px-8 xl:px-24">
       <div className="">
         <div
-          className="relative items-center text-white text-sm"
+          className="relative items-center text-white"
           id="gogik"
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -93,7 +93,7 @@ const Agrowisata4 = () => {
                   <li>Kamar mandi yang berada di mushola</li>
                 </ul>
               </p>
-              <div className="items-start justify-start flex justify-items-start xl:hidden">
+              <div className="items-center justify-center flex justify-items-center xl:hidden">
                 <Link to="/agrowisata/gogik">
                   <button
                     onClick={() => {

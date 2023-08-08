@@ -15,7 +15,7 @@ const Tentang = () => {
     <div className="items-center bg-[#FFFDEC] pt-8 xl:pt-16 pb-8 block px-8 xl:px-24">
       <div className="xl:grid xl:grid-cols-2 flex flex-col">
         <div
-          className="relative items-end text-left text-white mobile:text-sm xl:w-[90%]"
+          className="relative items-end text-left text-white text-sm xl:w-[90%]"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
@@ -27,7 +27,7 @@ const Tentang = () => {
             </div>
           </div>
 
-          <div className="text-justify text-[#545B77] sm:text-base xl:text-xl">
+          <div className="text-justify text-[#545B77] xl:text-xl sm:text-base">
             Hanya 1 jam dari Kota Yogyakarta dan tak jauh dari Jalan Raya
             Kopeng, terletak “hidden-gem” Kabupaten Magelang, yaitu Desa
             Girirejo

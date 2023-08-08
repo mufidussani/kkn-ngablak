@@ -81,23 +81,23 @@ const footer = () => {
                 </p> */}
               </div>
               <span className="">
-                <p className="font-bold text-lg text-center xl:text-left text-white lg:mt-6 xl:mt-0">
+                <p className="font-bold text-base md:text-lg text-center xl:text-left text-white lg:mt-6 xl:mt-0">
                   DESA GIRIREJO
                 </p>
-                <p className="text-center text-base text-white lg:mt-6 xl:mt-0 mb-2">
+                <p className="text-center text-sm md:text-base text-white lg:mt-6 xl:mt-0 mb-2">
                   Kecamatan Ngablak, Kabupaten Magelang, Jawa Tengah, 56194
                 </p>
               </span>
             </div>
             {/* quick link */}
-            <div className="flex flex-col text-lg text-white xl:gap-2 xl:text-xl gap-2 my-6">
-              <div className="flex flex-col text-lg gap-2">
+            <div className="flex flex-col text-base md:text-lg text-white xl:gap-2 xl:text-xl gap-2 my-3">
+              <div className="flex flex-col gap-2">
                 <Link
                   onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
                   to="/"
-                  className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
+                  className="w-fit transition-colors hover:text-yellow-500"
                 >
                   Beranda
                 </Link>
@@ -106,7 +106,7 @@ const footer = () => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
                   to="/agrowisata"
-                  className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
+                  className="w-fit transition-colors hover:text-yellow-500"
                 >
                   Agrowisata dan Pariwisata
                 </Link>
@@ -115,7 +115,7 @@ const footer = () => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
                   to="/umkm"
-                  className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
+                  className="w-fit transition-colors hover:text-yellow-500"
                 >
                   UMKM
                 </Link>
@@ -124,7 +124,7 @@ const footer = () => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
                   to="/budaya"
-                  className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
+                  className="w-fit transition-colors hover:text-yellow-500"
                 >
                   Budaya
                 </Link>
@@ -133,7 +133,7 @@ const footer = () => {
                     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                   }}
                   to="/tps"
-                  className="w-fit transition-colors hover:text-yellow-500 mobile:text-xl"
+                  className="w-fit transition-colors hover:text-yellow-500"
                 >
                   TPS
                 </Link>
